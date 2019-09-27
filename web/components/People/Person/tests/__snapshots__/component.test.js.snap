@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`web | components | Person | index  render should match snapshot 1`] = `
+<WithStyles(Grid)
+  item={true}
+>
+  <WithStyles(Card)>
+    <WithStyles(CardHeader)
+      action={
+        <Hidden
+          implementation="js"
+          lgDown={false}
+          lgUp={false}
+          mdDown={false}
+          mdUp={false}
+          smDown={false}
+          smUp={false}
+          xlDown={false}
+          xlUp={false}
+          xsDown={false}
+          xsUp={true}
+        >
+          <WithStyles(IconButton)>
+            <pure(MoreVertIcon) />
+          </WithStyles(IconButton)>
+          <WithStyles(Popover)
+            anchorOrigin={
+              Object {
+                "horizontal": "left",
+                "vertical": "center",
+              }
+            }
+            open={false}
+            transformOrigin={
+              Object {
+                "horizontal": "right",
+                "vertical": "top",
+              }
+            }
+          >
+            <WithStyles(MenuItem)
+              onClick={[Function]}
+            >
+              <WithStyles(ListItemIcon)>
+                <pure(DeleteIcon) />
+              </WithStyles(ListItemIcon)>
+              <WithStyles(ListItemText)
+                classes={
+                  Object {
+                    "primary": undefined,
+                  }
+                }
+                primary={
+                  <FormattedMessage
+                    defaultMessage="Delete"
+                    id="app.button.disable"
+                    values={Object {}}
+                  />
+                }
+                variant="inset"
+              />
+            </WithStyles(MenuItem)>
+          </WithStyles(Popover)>
+        </Hidden>
+      }
+      avatar={
+        <WithStyles(Grid)
+          container={true}
+          direction="column"
+        >
+          <UserAvatar
+            size="LARGE"
+            to="/person/:id"
+            user={Object {}}
+          />
+          <WithStyles(Grid)
+            container={true}
+            justify="center"
+          >
+            <WithStyles(Typography)
+              style={
+                Object {
+                  "color": "primary",
+                }
+              }
+            />
+          </WithStyles(Grid)>
+        </WithStyles(Grid)>
+      }
+      subheader={
+        <WithStyles(Typography)
+          className=""
+        >
+          <br />
+        </WithStyles(Typography)>
+      }
+      title={
+        <WithStyles(Typography)>
+          
+        </WithStyles(Typography)>
+      }
+    />
+    <WithStyles(CardContent)>
+      <WithStyles(Grid)
+        item={true}
+        xs={12}
+      >
+        <WithStyles(Grid)
+          container={true}
+          justify="center"
+        >
+          <WithStyles(Grid)
+            item={true}
+            xs={4}
+          >
+            <WithStyles(Tooltip)
+              placement="left"
+              title="Number of Resumes"
+            >
+              <WithStyles(Badge)
+                badgeContent={0}
+                color="primary"
+              >
+                <div />
+              </WithStyles(Badge)>
+            </WithStyles(Tooltip)>
+          </WithStyles(Grid)>
+          <WithStyles(Grid)
+            item={true}
+            xs={8}
+          >
+            <RoleChip
+              size="MEDIUM"
+            />
+          </WithStyles(Grid)>
+        </WithStyles(Grid)>
+      </WithStyles(Grid)>
+    </WithStyles(CardContent)>
+  </WithStyles(Card)>
+</WithStyles(Grid)>
+`;

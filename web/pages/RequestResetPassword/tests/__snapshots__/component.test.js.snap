@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages | ForgetPassword | component should render 1`] = `
+<WithStyles(Container)>
+  <WithStyles(Content)>
+    <WithStyles(Grid)
+      container={true}
+      justify="center"
+    >
+      <WithStyles(Grid)
+        item={true}
+      >
+        <WithStyles(Card)>
+          <WithStyles(AppBar)
+            color="default"
+            position="static"
+          >
+            <WithStyles(Tabs)
+              fullWidth={true}
+              indicatorColor="primary"
+              value={0}
+            >
+              <WithStyles(Tab)
+                label={
+                  <FormattedMessage
+                    defaultMessage=" Reset Password"
+                    id="components.LoginForm.forgotPassword.restPassword"
+                    values={Object {}}
+                  />
+                }
+              />
+            </WithStyles(Tabs)>
+          </WithStyles(AppBar)>
+          <ReactFinalForm
+            onSubmit={[Function]}
+            render={[Function]}
+          />
+        </WithStyles(Card)>
+      </WithStyles(Grid)>
+    </WithStyles(Grid)>
+    <WithStyles(Grid)
+      item={true}
+    >
+      <WithStyles(Typography)
+        align="center"
+        variant="caption"
+      >
+        <FormattedMessage
+          defaultMessage="Already have login and password?"
+          id="components.LoginForm.forgotPasswsord.haveLogin"
+          values={Object {}}
+        />
+        <WithStyles(Button)
+          color="primary"
+          component={[Function]}
+          to="/resumes"
+        >
+          <FormattedMessage
+            defaultMessage="Sign in"
+            id="components.LoginForm.forgotPasswsord.haveLogin"
+            values={Object {}}
+          />
+        </WithStyles(Button)>
+      </WithStyles(Typography)>
+    </WithStyles(Grid)>
+  </WithStyles(Content)>
+</WithStyles(Container)>
+`;

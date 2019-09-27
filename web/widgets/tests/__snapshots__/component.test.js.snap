@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ArrowBack /> should render an <ArrowBack /> 1`] = `
+<Route>
+  <Component />
+</Route>
+`;
+
+exports[`<ChipStatus /> should render a <ChipStatus /> 1`] = `
+<WithStyles(Chip)
+  color="primary"
+  style={
+    Object {
+      "height": 30,
+      "width": "60px",
+    }
+  }
+/>
+`;
+
+exports[`<Container /> should render a <Container /> 1`] = `
+<Container
+  classes={
+    Object {
+      "container": "Container-container-1",
+    }
+  }
+>
+  <div />
+</Container>
+`;
+
+exports[`<Content /> should render a <Content /> 1`] = `
+<Content
+  classes={Object {}}
+>
+  <div />
+</Content>
+`;
+
+exports[`<FilterMenu /> should render a <FilterMenu /> 1`] = `
+<FilterMenu
+  action={[MockFunction]}
+  allResumes={10}
+  classes={
+    Object {
+      "badge": "FilterMenu-badge-7",
+      "menuItem": "FilterMenu-menuItem-8",
+    }
+  }
+  closeMenu={[MockFunction]}
+  data={Array []}
+  isOpen={Object {}}
+  statusFilter=""
+/>
+`;
+
+exports[`<Grid /> should render a <Grid /> 1`] = `
+<WithStyles(Grid)
+  item={true}
+  xs={12}
+>
+  <WithStyles(Grid)
+    container={true}
+    wrap="nowrap"
+  >
+    <div />
+  </WithStyles(Grid)>
+</WithStyles(Grid)>
+`;
+
+exports[`<LoadResume /> should render a <LoadResume /> 1`] = `
+<WithStyles(WithTheme(WithWidth(WithMobileDialog)))
+  classes={Object {}}
+  close={[MockFunction]}
+  download={[MockFunction]}
+  fullScreen={true}
+  getDocumentLoad={[MockFunction]}
+  numPages={0}
+  onDocumentLoaded={[Function]}
+  open={true}
+  resume={Object {}}
+  token=""
+/>
+`;
+
+exports[`<Menu ><MenuList/></Menu> should render a <Menu /> and <MenuList/> 1`] = `
+<withHandlers(Menu)
+  closeUserMenu={[MockFunction]}
+  openUserMenu={[MockFunction]}
+  toggleMenu={[Function]}
+  userMenuAnchor={null}
+>
+  <WithStyles(MenuUserList)
+    classes={Object {}}
+  />
+</withHandlers(Menu)>
+`;
+
+exports[`<RegisterTermsDialog /> should render a <RegisterTermsDialog /> 1`] = `
+<withState(withHandlers(RegisterTermsDialog))
+  classes={
+    Object {
+      "terms": "withState-withHandlers-RegisterTermsDialog---terms-4",
+    }
+  }
+  closeTermsDialog={[MockFunction]}
+  isDialogOpened={false}
+  openTermsDialog={[MockFunction]}
+/>
+`;
+
+exports[`<ResumeIcon /> should render a <ResumeIcon /> 1`] = `
+<ResumeIcon
+  classes={
+    Object {
+      "root": "ResumeIcon-root-3",
+    }
+  }
+/>
+`;
+
+exports[`<ResumeStatus /> should render a <ResumeStatus /> 1`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;
+
+exports[`<RoleChip /> should render a <RoleChip /> 1`] = `null`;
+
+exports[`<SkillsChip /> should render a <SkillsChip /> 1`] = `
+<EnhancedComponent
+  action={[MockFunction]}
+  classes={
+    Object {
+      "chip": "EnhancedComponent-chip-6",
+      "root": "EnhancedComponent-root-5",
+    }
+  }
+  data={Array []}
+  location={Object {}}
+  size="SMALL"
+/>
+`;
+
+exports[`<Spacer /> should render a <Spacer /> 1`] = `
+<div
+  style={
+    Object {
+      "marginLeft": "3px",
+      "marginRight": "3px",
+    }
+  }
+/>
+`;
+
+exports[`<UserName /> should render a <UserName /> 1`] = `
+<UserName
+  classes={
+    Object {
+      "name": "UserName-name-2",
+    }
+  }
+  user={Object {}}
+/>
+`;

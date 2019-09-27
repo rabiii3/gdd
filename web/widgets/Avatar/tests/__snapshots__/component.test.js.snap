@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app | Avatar | component render User Avatar should match snapshot 1`] = `
+<Avatar
+  color="red"
+  name="Slim Chkir"
+  user={
+    Object {
+      "firstname": "Slim",
+      "lastname": "Chkir",
+    }
+  }
+>
+  <Avatar
+    name="Slim Chkir"
+  />
+</Avatar>
+`;

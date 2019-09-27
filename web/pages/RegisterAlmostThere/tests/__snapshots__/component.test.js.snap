@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`web | pages | EmailConfirmation | index render should match snapshot 1`] = `
+<WithStyles(Container)>
+  <WithStyles(Content)>
+    <WithStyles(Grid)
+      container={true}
+      justify="center"
+    >
+      <WithStyles(Grid)
+        item={true}
+        xs={12}
+      >
+        <WithStyles(Typography)
+          align="center"
+          color="textPrimary"
+          variant="display3"
+        >
+          <FormattedMessage
+            defaultMessage="Almost there ..."
+            id="pages.RegisterAlmostThere.almostThere"
+            values={Object {}}
+          />
+        </WithStyles(Typography)>
+        <WithStyles(Typography)
+          align="center"
+          variant="caption"
+        >
+          <FormattedMessage
+            defaultMessage="Please check your email to confirm your account"
+            id="pages.RegisterAlmostThere.checkAccount"
+            values={Object {}}
+          />
+        </WithStyles(Typography)>
+        <br />
+         
+        <br />
+        <WithStyles(Divider) />
+      </WithStyles(Grid)>
+      <WithStyles(Grid)
+        item={true}
+        xs={12}
+      >
+        <br />
+         
+        <br />
+        <WithStyles(Typography)
+          align="center"
+          variant="body1"
+        >
+          <FormattedMessage
+            defaultMessage="No confirmation email recived? Please check your spam folder or"
+            id="pages.RegisterAlmostThere.noConfirmation"
+            values={Object {}}
+          />
+        </WithStyles(Typography)>
+        <br />
+         
+        <br />
+      </WithStyles(Grid)>
+      <WithStyles(Grid)
+        item={true}
+      >
+        <WithStyles(Button)
+          align="center"
+          color="primary"
+          component={[Function]}
+          size="large"
+          to="/request_confirmation"
+          variant="contained"
+        >
+          <FormattedMessage
+            defaultMessage="Request new confirmation email"
+            id="pages.RegisterAlmostThere.requestConfirmation"
+            values={Object {}}
+          />
+        </WithStyles(Button)>
+      </WithStyles(Grid)>
+      <WithStyles(Grid)
+        item={true}
+        xs={12}
+      >
+        <WithStyles(Typography)
+          align="center"
+          variant="caption"
+        >
+          <FormattedMessage
+            defaultMessage="Get your login and password?"
+            id="components.LoginForm.almostThere.haveLogin"
+            values={Object {}}
+          />
+          <WithStyles(Button)
+            color="primary"
+            component={[Function]}
+            to="/resumes"
+          >
+            <FormattedMessage
+              defaultMessage="Sign in"
+              id="components.LoginForm.almostThere.haveLogin"
+              values={Object {}}
+            />
+          </WithStyles(Button)>
+        </WithStyles(Typography)>
+      </WithStyles(Grid)>
+    </WithStyles(Grid)>
+  </WithStyles(Content)>
+</WithStyles(Container)>
+`;

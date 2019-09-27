@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app | components | Resumes | List | index render should render 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <WithStyles(Component)>
+    <Component
+      classes={Object {}}
+    >
+      <div />
+    </Component>
+  </WithStyles(Component)>
+</Provider>
+`;

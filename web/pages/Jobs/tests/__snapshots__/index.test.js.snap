@@ -1,0 +1,244 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app | pages | JobDescription | index should match snapshot 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <WithStyles(Connect(lifecycle(EnhancedComponent)))>
+    <Connect(lifecycle(EnhancedComponent))
+      classes={
+        Object {
+          "icon": "Connect-lifecycle-EnhancedComponent---icon-3",
+          "paper": "Connect-lifecycle-EnhancedComponent---paper-2",
+          "root": "Connect-lifecycle-EnhancedComponent---root-1",
+          "tableCell": "Connect-lifecycle-EnhancedComponent---tableCell-4",
+        }
+      }
+    >
+      <lifecycle(EnhancedComponent)
+        classes={
+          Object {
+            "icon": "Connect-lifecycle-EnhancedComponent---icon-3",
+            "paper": "Connect-lifecycle-EnhancedComponent---paper-2",
+            "root": "Connect-lifecycle-EnhancedComponent---root-1",
+            "tableCell": "Connect-lifecycle-EnhancedComponent---tableCell-4",
+          }
+        }
+        deleteJob={[Function]}
+        loadJobs={[Function]}
+        people={
+          Object {
+            "456": Object {
+              "_id": "456",
+              "firstname": "test",
+              "lastname": "tester",
+              "roles": Array [
+                "admin",
+              ],
+            },
+          }
+        }
+        skills={
+          Object {
+            "5d035ef378c332001b67bada": Object {
+              "_id": "5d035ef378c332001b67bada",
+              "label": "DevOps",
+            },
+            "5d035ef378c332001b67badb": Object {
+              "_id": "5d035ef378c332001b67badb",
+              "label": "React JS",
+            },
+          }
+        }
+        sortJobs={[Function]}
+        sortMode={
+          Object {
+            "direction": "asc",
+            "sortBy": "TITLE",
+          }
+        }
+        sortedJobs={Array []}
+        user={
+          Object {
+            "_id": "123",
+            "firstname": "user",
+            "lastname": "user",
+            "locale": "en",
+          }
+        }
+      >
+        <EnhancedComponent
+          classes={
+            Object {
+              "icon": "Connect-lifecycle-EnhancedComponent---icon-3",
+              "paper": "Connect-lifecycle-EnhancedComponent---paper-2",
+              "root": "Connect-lifecycle-EnhancedComponent---root-1",
+              "tableCell": "Connect-lifecycle-EnhancedComponent---tableCell-4",
+            }
+          }
+          deleteJob={[Function]}
+          loadJobs={[Function]}
+          people={
+            Object {
+              "456": Object {
+                "_id": "456",
+                "firstname": "test",
+                "lastname": "tester",
+                "roles": Array [
+                  "admin",
+                ],
+              },
+            }
+          }
+          skills={
+            Object {
+              "5d035ef378c332001b67bada": Object {
+                "_id": "5d035ef378c332001b67bada",
+                "label": "DevOps",
+              },
+              "5d035ef378c332001b67badb": Object {
+                "_id": "5d035ef378c332001b67badb",
+                "label": "React JS",
+              },
+            }
+          }
+          sortJobs={[Function]}
+          sortMode={
+            Object {
+              "direction": "asc",
+              "sortBy": "TITLE",
+            }
+          }
+          sortedJobs={Array []}
+          user={
+            Object {
+              "_id": "123",
+              "firstname": "user",
+              "lastname": "user",
+              "locale": "en",
+            }
+          }
+        >
+          <withStateHandlers(Component)
+            classes={
+              Object {
+                "icon": "Connect-lifecycle-EnhancedComponent---icon-3",
+                "paper": "Connect-lifecycle-EnhancedComponent---paper-2",
+                "root": "Connect-lifecycle-EnhancedComponent---root-1",
+                "tableCell": "Connect-lifecycle-EnhancedComponent---tableCell-4",
+              }
+            }
+            deleteJob={[Function]}
+            loadJobs={[Function]}
+            people={
+              Object {
+                "456": Object {
+                  "_id": "456",
+                  "firstname": "test",
+                  "lastname": "tester",
+                  "roles": Array [
+                    "admin",
+                  ],
+                },
+              }
+            }
+            skills={
+              Object {
+                "5d035ef378c332001b67bada": Object {
+                  "_id": "5d035ef378c332001b67bada",
+                  "label": "DevOps",
+                },
+                "5d035ef378c332001b67badb": Object {
+                  "_id": "5d035ef378c332001b67badb",
+                  "label": "React JS",
+                },
+              }
+            }
+            sortJobs={[Function]}
+            sortMode={
+              Object {
+                "direction": "asc",
+                "sortBy": "TITLE",
+              }
+            }
+            sortedJobs={Array []}
+            user={
+              Object {
+                "_id": "123",
+                "firstname": "user",
+                "lastname": "user",
+                "locale": "en",
+              }
+            }
+          >
+            <Component
+              classes={
+                Object {
+                  "icon": "Connect-lifecycle-EnhancedComponent---icon-3",
+                  "paper": "Connect-lifecycle-EnhancedComponent---paper-2",
+                  "root": "Connect-lifecycle-EnhancedComponent---root-1",
+                  "tableCell": "Connect-lifecycle-EnhancedComponent---tableCell-4",
+                }
+              }
+              deleteJob={[Function]}
+              handleSelectedJob={[Function]}
+              loadJobs={[Function]}
+              people={
+                Object {
+                  "456": Object {
+                    "_id": "456",
+                    "firstname": "test",
+                    "lastname": "tester",
+                    "roles": Array [
+                      "admin",
+                    ],
+                  },
+                }
+              }
+              selectedJob={null}
+              skills={
+                Object {
+                  "5d035ef378c332001b67bada": Object {
+                    "_id": "5d035ef378c332001b67bada",
+                    "label": "DevOps",
+                  },
+                  "5d035ef378c332001b67badb": Object {
+                    "_id": "5d035ef378c332001b67badb",
+                    "label": "React JS",
+                  },
+                }
+              }
+              sortJobs={[Function]}
+              sortMode={
+                Object {
+                  "direction": "asc",
+                  "sortBy": "TITLE",
+                }
+              }
+              sortedJobs={Array []}
+              user={
+                Object {
+                  "_id": "123",
+                  "firstname": "user",
+                  "lastname": "user",
+                  "locale": "en",
+                }
+              }
+            >
+              <div />
+            </Component>
+          </withStateHandlers(Component)>
+        </EnhancedComponent>
+      </lifecycle(EnhancedComponent)>
+    </Connect(lifecycle(EnhancedComponent))>
+  </WithStyles(Connect(lifecycle(EnhancedComponent)))>
+</Provider>
+`;

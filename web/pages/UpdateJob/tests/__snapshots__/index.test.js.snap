@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app | pages | UpdateJobDescription | index should match snapshot 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <WithStyles(withStateHandlers(Connect(lifecycle(Component))))
+    match={
+      Object {
+        "isExact": true,
+        "params": Object {
+          "id": 1,
+        },
+        "path": "",
+        "url": "",
+      }
+    }
+  >
+    <withStateHandlers(Connect(lifecycle(Component)))
+      classes={
+        Object {
+          "root": "withStateHandlers-Connect-lifecycle-Component----root-1",
+        }
+      }
+      match={
+        Object {
+          "isExact": true,
+          "params": Object {
+            "id": 1,
+          },
+          "path": "",
+          "url": "",
+        }
+      }
+    >
+      <Connect(lifecycle(Component))
+        classes={
+          Object {
+            "root": "withStateHandlers-Connect-lifecycle-Component----root-1",
+          }
+        }
+        isEditMode={false}
+        match={
+          Object {
+            "isExact": true,
+            "params": Object {
+              "id": 1,
+            },
+            "path": "",
+            "url": "",
+          }
+        }
+        setEditMode={[Function]}
+      >
+        <lifecycle(Component)
+          classes={
+            Object {
+              "root": "withStateHandlers-Connect-lifecycle-Component----root-1",
+            }
+          }
+          dispatch={[Function]}
+          isEditMode={false}
+          match={
+            Object {
+              "isExact": true,
+              "params": Object {
+                "id": 1,
+              },
+              "path": "",
+              "url": "",
+            }
+          }
+          setEditMode={[Function]}
+        >
+          <Component
+            classes={
+              Object {
+                "root": "withStateHandlers-Connect-lifecycle-Component----root-1",
+              }
+            }
+            dispatch={[Function]}
+            isEditMode={false}
+            match={
+              Object {
+                "isExact": true,
+                "params": Object {
+                  "id": 1,
+                },
+                "path": "",
+                "url": "",
+              }
+            }
+            setEditMode={[Function]}
+          >
+            <div />
+          </Component>
+        </lifecycle(Component)>
+      </Connect(lifecycle(Component))>
+    </withStateHandlers(Connect(lifecycle(Component)))>
+  </WithStyles(withStateHandlers(Connect(lifecycle(Component))))>
+</Provider>
+`;

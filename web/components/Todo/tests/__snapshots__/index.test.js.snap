@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`web | components | Todo | index render should render 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Connect(LanguageProvider)
+    messages={Object {}}
+  >
+    <LanguageProvider
+      dispatch={[Function]}
+      locale="en"
+      messages={Object {}}
+    >
+      <IntlProvider
+        key="en"
+        locale="en"
+      >
+        <Router
+          history={
+            Object {
+              "action": "POP",
+              "block": [Function],
+              "createHref": [Function],
+              "go": [Function],
+              "goBack": [Function],
+              "goForward": [Function],
+              "length": 1,
+              "listen": [Function],
+              "location": Object {
+                "hash": "",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              },
+              "push": [Function],
+              "replace": [Function],
+            }
+          }
+        >
+          <WithStyles(Connect(EnhancedComponent))>
+            <Connect(EnhancedComponent)
+              classes={
+                Object {
+                  "labelEdit": "Connect-EnhancedComponent--labelEdit-7",
+                  "marginDatePicker": "Connect-EnhancedComponent--marginDatePicker-1",
+                  "marginTop": "Connect-EnhancedComponent--marginTop-3",
+                  "marginTopWhen": "Connect-EnhancedComponent--marginTopWhen-4",
+                  "marginWho": "Connect-EnhancedComponent--marginWho-2",
+                  "noMarginTop": "Connect-EnhancedComponent--noMarginTop-5",
+                  "noMarginTopWhen": "Connect-EnhancedComponent--noMarginTopWhen-6",
+                }
+              }
+            >
+              <EnhancedComponent
+                adminsOrHeadHunters={Array []}
+                classes={
+                  Object {
+                    "labelEdit": "Connect-EnhancedComponent--labelEdit-7",
+                    "marginDatePicker": "Connect-EnhancedComponent--marginDatePicker-1",
+                    "marginTop": "Connect-EnhancedComponent--marginTop-3",
+                    "marginTopWhen": "Connect-EnhancedComponent--marginTopWhen-4",
+                    "marginWho": "Connect-EnhancedComponent--marginWho-2",
+                    "noMarginTop": "Connect-EnhancedComponent--noMarginTop-5",
+                    "noMarginTopWhen": "Connect-EnhancedComponent--noMarginTopWhen-6",
+                  }
+                }
+                dispatch={[Function]}
+                people={Object {}}
+              >
+                <Component
+                  adminsOrHeadHunters={Array []}
+                  classes={
+                    Object {
+                      "labelEdit": "Connect-EnhancedComponent--labelEdit-7",
+                      "marginDatePicker": "Connect-EnhancedComponent--marginDatePicker-1",
+                      "marginTop": "Connect-EnhancedComponent--marginTop-3",
+                      "marginTopWhen": "Connect-EnhancedComponent--marginTopWhen-4",
+                      "marginWho": "Connect-EnhancedComponent--marginWho-2",
+                      "noMarginTop": "Connect-EnhancedComponent--noMarginTop-5",
+                      "noMarginTopWhen": "Connect-EnhancedComponent--noMarginTopWhen-6",
+                    }
+                  }
+                  dispatch={[Function]}
+                  people={Object {}}
+                >
+                  <div />
+                </Component>
+              </EnhancedComponent>
+            </Connect(EnhancedComponent)>
+          </WithStyles(Connect(EnhancedComponent))>
+        </Router>
+      </IntlProvider>
+    </LanguageProvider>
+  </Connect(LanguageProvider)>
+</Provider>
+`;

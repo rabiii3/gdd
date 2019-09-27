@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`web | components | modalandform | componentindex render should match snapshot 1`] = `
+<WithStyles(Modal)
+  onClose={[Function]}
+  open={false}
+>
+  <div
+    style={
+      Object {
+        "left": "50%",
+        "top": "50%",
+        "transform": "translate(-50%, -50%)",
+      }
+    }
+  >
+    <WithStyles(Typography)
+      id="simple-modal-description"
+      variant="subtitle1"
+    >
+      <Connect(WithStyles(ResumeForm))
+        file={Array []}
+        setModal={[Function]}
+      />
+    </WithStyles(Typography)>
+  </div>
+</WithStyles(Modal)>
+`;

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app | pages | UpdateJobDescription | component should match snapshot 1`] = `
+<Component
+  classes={Object {}}
+  isEditMode={true}
+  jobDescription={Object {}}
+  setEditMode={[MockFunction]}
+/>
+`;

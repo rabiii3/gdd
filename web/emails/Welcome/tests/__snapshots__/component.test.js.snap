@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`web | pages | EmailConfirmation | index render should match snapshot 1`] = `
+<WithStyles(Paper)>
+  <WithStyles(Grid)
+    container={true}
+    justify="center"
+  >
+    <WithStyles(Grid)
+      item={true}
+      xs={12}
+    >
+      <WithStyles(Typography)
+        align="center"
+        color="textPrimary"
+        variant="display1"
+      >
+        <FormattedMessage
+          defaultMessage="Hello, {name}!"
+          id="pages.EmailWelcome.hello"
+          values={
+            Object {
+              "name": undefined,
+            }
+          }
+        />
+      </WithStyles(Typography)>
+      <WithStyles(Typography)
+        align="center"
+        color="textPrimary"
+        variant="body1"
+      >
+        <FormattedMessage
+          defaultMessage="Welcome to Koopt"
+          id="pages.EmailWelcome.text1"
+          values={Object {}}
+        />
+        <p />
+        <FormattedMessage
+          defaultMessage="Your account is now active"
+          id="pages.EmailWelcome.text2"
+          values={Object {}}
+        />
+        <p />
+        <FormattedMessage
+          defaultMessage="Feel free to use it: {url}"
+          id="pages.EmailWelcome.text3"
+          values={
+            Object {
+              "url": undefined,
+            }
+          }
+        />
+        <p />
+      </WithStyles(Typography)>
+    </WithStyles(Grid)>
+  </WithStyles(Grid)>
+</WithStyles(Paper)>
+`;

@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`web | pages | Person | index render should match snapshot 1`] = `
+<Redirect
+  push={false}
+  to="/resumes"
+/>
+`;

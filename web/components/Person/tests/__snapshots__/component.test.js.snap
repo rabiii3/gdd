@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`web | components | Person | index  render should match snapshot 1`] = `
+<ReactFinalForm
+  initialValues={
+    Object {
+      "password": undefined,
+      "roles": undefined,
+    }
+  }
+  onSubmit={[Function]}
+  render={[Function]}
+/>
+`;
+
+exports[`web | components | Person |Resumes render should match snapshot 1`] = `
+<WithStyles(Grid)
+  container={true}
+  justify="center"
+  wrap="wrap"
+/>
+`;

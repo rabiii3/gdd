@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages | ForgetPassword | component should render 1`] = `
+<WithStyles(Container)>
+  <WithStyles(Content)>
+    <WithStyles(Grid)
+      container={true}
+      justify="center"
+    >
+      <WithStyles(Grid)
+        item={true}
+        xs={12}
+      >
+        <WithStyles(Grid)
+          container={true}
+          justify="center"
+        >
+          <WithStyles(Card)>
+            <WithStyles(AppBar)
+              color="default"
+              position="static"
+            >
+              <WithStyles(Tabs)
+                fullWidth={true}
+                indicatorColor="primary"
+                value={0}
+              >
+                <WithStyles(Tab)
+                  label={
+                    <FormattedMessage
+                      defaultMessage="Change your password"
+                      id="components.ResetPassword.title"
+                      values={Object {}}
+                    />
+                  }
+                />
+              </WithStyles(Tabs)>
+            </WithStyles(AppBar)>
+            <ReactFinalForm
+              onSubmit={[Function]}
+              render={[Function]}
+            />
+          </WithStyles(Card)>
+        </WithStyles(Grid)>
+      </WithStyles(Grid)>
+      <WithStyles(Grid)
+        item={true}
+        xs={12}
+      >
+        <WithStyles(Typography)
+          align="center"
+          variant="caption"
+        >
+          <FormattedMessage
+            defaultMessage="Already have login and password?"
+            id="components.LoginForm.forgetPwForm.haveLogin"
+            values={Object {}}
+          />
+          <WithStyles(Button)
+            color="primary"
+            component={[Function]}
+            to="/resumes"
+          >
+            <FormattedMessage
+              defaultMessage="Sign in"
+              id="components.ResetPassword.signIn"
+              values={Object {}}
+            />
+          </WithStyles(Button)>
+        </WithStyles(Typography)>
+        <WithStyles(Typography)
+          align="center"
+          variant="caption"
+        >
+          <FormattedMessage
+            defaultMessage="Didn't recive a confirmation email?"
+            id="components.LoginForm.forgetPwForm.didNotReciveConfirmation"
+            values={Object {}}
+          />
+          <WithStyles(Button)
+            color="primary"
+            component={[Function]}
+            to="/request_reset_password"
+          >
+            <FormattedMessage
+              defaultMessage="Request a new one"
+              id="components.LoginForm.forgetPwForm.requestPassword"
+              values={Object {}}
+            />
+          </WithStyles(Button)>
+        </WithStyles(Typography)>
+      </WithStyles(Grid)>
+    </WithStyles(Grid)>
+  </WithStyles(Content)>
+</WithStyles(Container)>
+`;

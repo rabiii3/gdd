@@ -1,0 +1,167 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app | components | SaveJobDescription | index should match snapshot 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <BrowserRouter>
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "createHref": [Function],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <WithStyles(Connect(withRouter(Component)))>
+        <Connect(withRouter(Component))
+          classes={
+            Object {
+              "container": "Connect-withRouter-Component---container-1",
+              "labelEdit": "Connect-withRouter-Component---labelEdit-2",
+              "labelNoEdit": "Connect-withRouter-Component---labelNoEdit-3",
+              "margin": "Connect-withRouter-Component---margin-4",
+            }
+          }
+        >
+          <withRouter(Component)
+            addJob={[Function]}
+            allSkills={
+              Object {
+                "5d035ef378c332001b67bada": Object {
+                  "_id": "5d035ef378c332001b67bada",
+                  "label": "DevOps",
+                },
+                "5d035ef378c332001b67badb": Object {
+                  "_id": "5d035ef378c332001b67badb",
+                  "label": "React JS",
+                },
+              }
+            }
+            classes={
+              Object {
+                "container": "Connect-withRouter-Component---container-1",
+                "labelEdit": "Connect-withRouter-Component---labelEdit-2",
+                "labelNoEdit": "Connect-withRouter-Component---labelNoEdit-3",
+                "margin": "Connect-withRouter-Component---margin-4",
+              }
+            }
+            skills={
+              Array [
+                Object {
+                  "_id": "5d035ef378c332001b67bada",
+                  "label": "DevOps",
+                },
+                Object {
+                  "_id": "5d035ef378c332001b67badb",
+                  "label": "React JS",
+                },
+              ]
+            }
+            updateJob={[Function]}
+          >
+            <Route>
+              <Component
+                addJob={[Function]}
+                allSkills={
+                  Object {
+                    "5d035ef378c332001b67bada": Object {
+                      "_id": "5d035ef378c332001b67bada",
+                      "label": "DevOps",
+                    },
+                    "5d035ef378c332001b67badb": Object {
+                      "_id": "5d035ef378c332001b67badb",
+                      "label": "React JS",
+                    },
+                  }
+                }
+                classes={
+                  Object {
+                    "container": "Connect-withRouter-Component---container-1",
+                    "labelEdit": "Connect-withRouter-Component---labelEdit-2",
+                    "labelNoEdit": "Connect-withRouter-Component---labelNoEdit-3",
+                    "margin": "Connect-withRouter-Component---margin-4",
+                  }
+                }
+                history={
+                  Object {
+                    "action": "POP",
+                    "block": [Function],
+                    "createHref": [Function],
+                    "go": [Function],
+                    "goBack": [Function],
+                    "goForward": [Function],
+                    "length": 1,
+                    "listen": [Function],
+                    "location": Object {
+                      "hash": "",
+                      "pathname": "/",
+                      "search": "",
+                      "state": undefined,
+                    },
+                    "push": [Function],
+                    "replace": [Function],
+                  }
+                }
+                location={
+                  Object {
+                    "hash": "",
+                    "pathname": "/",
+                    "search": "",
+                    "state": undefined,
+                  }
+                }
+                match={
+                  Object {
+                    "isExact": true,
+                    "params": Object {},
+                    "path": "/",
+                    "url": "/",
+                  }
+                }
+                skills={
+                  Array [
+                    Object {
+                      "_id": "5d035ef378c332001b67bada",
+                      "label": "DevOps",
+                    },
+                    Object {
+                      "_id": "5d035ef378c332001b67badb",
+                      "label": "React JS",
+                    },
+                  ]
+                }
+                updateJob={[Function]}
+              >
+                <div />
+              </Component>
+            </Route>
+          </withRouter(Component)>
+        </Connect(withRouter(Component))>
+      </WithStyles(Connect(withRouter(Component)))>
+    </Router>
+  </BrowserRouter>
+</Provider>
+`;

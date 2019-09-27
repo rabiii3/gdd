@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app | pages | AddJobDescription | index should match snapshot 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <WithStyles(Component)>
+    <Component
+      classes={
+        Object {
+          "root": "Component-root-1",
+        }
+      }
+    >
+      <div />
+    </Component>
+  </WithStyles(Component)>
+</Provider>
+`;

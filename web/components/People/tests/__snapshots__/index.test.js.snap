@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`web | components | People | index  render should render 1`] = `
+<WithStyles(Component)>
+  <Component
+    classes={Object {}}
+  >
+    <div />
+  </Component>
+</WithStyles(Component)>
+`;

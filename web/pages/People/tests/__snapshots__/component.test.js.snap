@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`web | pages | People | index render should match snapshot 1`] = `
+<WithStyles(Container)>
+  <WithStyles(StyledHeader)>
+    <WithStyles(StyledHeaderLeft)>
+      <WithStyles(ResumeIcon) />
+      <Spacer
+        size="MEDIUM"
+      />
+      <WithStyles(Title)
+        text="People Page"
+      />
+    </WithStyles(StyledHeaderLeft)>
+    <WithStyles(StyledHeaderRight)>
+      <Hidden
+        implementation="js"
+        lgDown={false}
+        lgUp={false}
+        mdDown={false}
+        mdUp={false}
+        smDown={false}
+        smUp={false}
+        xlDown={false}
+        xlUp={false}
+        xsDown={true}
+        xsUp={false}
+      >
+        <WithStyles(SearchBar)
+          onCancelSearch={[Function]}
+          onChange={[Function]}
+        />
+      </Hidden>
+    </WithStyles(StyledHeaderRight)>
+  </WithStyles(StyledHeader)>
+  <WithStyles(Content)>
+    <WithStyles(Component)
+      actions={Object {}}
+      people={Array []}
+    />
+  </WithStyles(Content)>
+</WithStyles(Container)>
+`;

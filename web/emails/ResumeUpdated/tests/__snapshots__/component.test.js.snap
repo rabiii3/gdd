@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`web | pages | EmailConfirmation | index render should match snapshot 1`] = `
+<div>
+  <WithStyles(Grid)
+    container={true}
+  >
+    <WithStyles(Grid)
+      item={true}
+      xs={3}
+    >
+      <WithStyles(Typography)
+        color="textPrimary"
+        variant="h6"
+      >
+        <FormattedMessage
+          defaultMessage="Hello, {name}!"
+          id="pages.ResumeUpdated.hello"
+          values={
+            Object {
+              "name": "FIRSTNAME LASTNAME",
+            }
+          }
+        />
+      </WithStyles(Typography)>
+    </WithStyles(Grid)>
+  </WithStyles(Grid)>
+  <p />
+  <WithStyles(Typography)
+    align="left"
+    color="textPrimary"
+    variant="body1"
+  >
+    <FormattedMessage
+      defaultMessage="{candidate}'s resume has been updated by {author}."
+      id="pages.ResumeUpdated.update"
+      values={
+        Object {
+          "author": "AFIRSTNAME ALASTNAME",
+          "candidate": "",
+        }
+      }
+    />
+    <div>
+      <br />
+      <FormattedMessage
+        defaultMessage="Status changed to \\"{status}\\"."
+        id="pages.ResumeUpdated.status"
+        values={
+          Object {
+            "status": "STATUS2",
+          }
+        }
+      />
+       
+      <br />
+    </div>
+    <p />
+    <a
+      href="http://url/resume/ID"
+    >
+      <FormattedMessage
+        defaultMessage="Click to view Resume."
+        id="pages.ResumeUpdated.view"
+        values={Object {}}
+      />
+    </a>
+  </WithStyles(Typography)>
+  <p />
+</div>
+`;

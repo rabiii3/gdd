@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`web | components | modalandform | index render should render 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Connect(LanguageProvider)
+    messages={Object {}}
+  >
+    <LanguageProvider
+      dispatch={[Function]}
+      locale="en"
+      messages={Object {}}
+    >
+      <IntlProvider
+        key="en"
+        locale="en"
+      >
+        <Router
+          history={
+            Object {
+              "action": "POP",
+              "block": [Function],
+              "createHref": [Function],
+              "go": [Function],
+              "goBack": [Function],
+              "goForward": [Function],
+              "length": 1,
+              "listen": [Function],
+              "location": Object {
+                "hash": "",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              },
+              "push": [Function],
+              "replace": [Function],
+            }
+          }
+        >
+          <Connect(WithStyles(Component))>
+            <WithStyles(Component)
+              actions={
+                Object {
+                  "addResume": [Function],
+                }
+              }
+            >
+              <Component
+                actions={
+                  Object {
+                    "addResume": [Function],
+                  }
+                }
+                classes={
+                  Object {
+                    "button": "Component-button-5",
+                    "container": "Component-container-1",
+                    "filename": "Component-filename-4",
+                    "textField": "Component-textField-2",
+                    "title": "Component-title-3",
+                  }
+                }
+              >
+                <div />
+              </Component>
+            </WithStyles(Component)>
+          </Connect(WithStyles(Component))>
+        </Router>
+      </IntlProvider>
+    </LanguageProvider>
+  </Connect(LanguageProvider)>
+</Provider>
+`;

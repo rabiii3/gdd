@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`web | components | SaveResume | component render should match snapshot 1`] = `
+<Fragment>
+  <ReactFinalForm
+    initialValues={
+      Object {
+        "status": "pending",
+      }
+    }
+    onSubmit={[Function]}
+    render={[Function]}
+  />
+</Fragment>
+`;

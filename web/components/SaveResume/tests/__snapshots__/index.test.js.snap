@@ -1,0 +1,487 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`web | components | SaveResume | index render should render 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Connect(LanguageProvider)
+    messages={Object {}}
+  >
+    <LanguageProvider
+      dispatch={[Function]}
+      locale="en"
+      messages={Object {}}
+    >
+      <IntlProvider
+        key="en"
+        locale="en"
+      >
+        <Router
+          history={
+            Object {
+              "action": "POP",
+              "block": [Function],
+              "createHref": [Function],
+              "go": [Function],
+              "goBack": [Function],
+              "goForward": [Function],
+              "length": 1,
+              "listen": [Function],
+              "location": Object {
+                "hash": "",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              },
+              "push": [Function],
+              "replace": [Function],
+            }
+          }
+        >
+          <WithStyles(Connect(withState(withHandlers(withStateHandlers(InjectIntl(withRouter(EnhancedComponent)))))))>
+            <Connect(withState(withHandlers(withStateHandlers(InjectIntl(withRouter(EnhancedComponent))))))
+              classes={
+                Object {
+                  "container": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------container-7",
+                  "divider": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------divider-18",
+                  "dropzone": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------dropzone-4",
+                  "labelEdit": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------labelEdit-10",
+                  "labelNoEdit": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------labelNoEdit-11",
+                  "margin": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------margin-1",
+                  "marginRating": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------marginRating-21",
+                  "menuItem": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------menuItem-5",
+                  "multiSelect": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------multiSelect-16",
+                  "onDrag": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------onDrag-6",
+                  "paddingTop": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------paddingTop-15",
+                  "pdf": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------pdf-2",
+                  "phonenumber": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------phonenumber-13",
+                  "progress": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------progress-12",
+                  "sizeLabel": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------sizeLabel-17",
+                  "starsLabel": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------starsLabel-20",
+                  "text": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------text-8",
+                  "textfield": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------textfield-3",
+                  "toolbar": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------toolbar-9",
+                  "width": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------width-14",
+                  "widthComment": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------widthComment-19",
+                }
+              }
+            >
+              <withState(withHandlers(withStateHandlers(InjectIntl(withRouter(EnhancedComponent)))))
+                allSkills={Object {}}
+                classes={
+                  Object {
+                    "container": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------container-7",
+                    "divider": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------divider-18",
+                    "dropzone": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------dropzone-4",
+                    "labelEdit": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------labelEdit-10",
+                    "labelNoEdit": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------labelNoEdit-11",
+                    "margin": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------margin-1",
+                    "marginRating": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------marginRating-21",
+                    "menuItem": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------menuItem-5",
+                    "multiSelect": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------multiSelect-16",
+                    "onDrag": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------onDrag-6",
+                    "paddingTop": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------paddingTop-15",
+                    "pdf": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------pdf-2",
+                    "phonenumber": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------phonenumber-13",
+                    "progress": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------progress-12",
+                    "sizeLabel": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------sizeLabel-17",
+                    "starsLabel": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------starsLabel-20",
+                    "text": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------text-8",
+                    "textfield": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------textfield-3",
+                    "toolbar": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------toolbar-9",
+                    "width": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------width-14",
+                    "widthComment": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------widthComment-19",
+                  }
+                }
+                dispatch={[Function]}
+                skills={Array []}
+              >
+                <withHandlers(withStateHandlers(InjectIntl(withRouter(EnhancedComponent))))
+                  allSkills={Object {}}
+                  classes={
+                    Object {
+                      "container": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------container-7",
+                      "divider": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------divider-18",
+                      "dropzone": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------dropzone-4",
+                      "labelEdit": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------labelEdit-10",
+                      "labelNoEdit": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------labelNoEdit-11",
+                      "margin": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------margin-1",
+                      "marginRating": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------marginRating-21",
+                      "menuItem": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------menuItem-5",
+                      "multiSelect": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------multiSelect-16",
+                      "onDrag": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------onDrag-6",
+                      "paddingTop": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------paddingTop-15",
+                      "pdf": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------pdf-2",
+                      "phonenumber": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------phonenumber-13",
+                      "progress": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------progress-12",
+                      "sizeLabel": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------sizeLabel-17",
+                      "starsLabel": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------starsLabel-20",
+                      "text": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------text-8",
+                      "textfield": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------textfield-3",
+                      "toolbar": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------toolbar-9",
+                      "width": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------width-14",
+                      "widthComment": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------widthComment-19",
+                    }
+                  }
+                  dispatch={[Function]}
+                  isDialogOpened={false}
+                  skills={Array []}
+                  toggleDialog={[Function]}
+                >
+                  <withStateHandlers(InjectIntl(withRouter(EnhancedComponent)))
+                    allSkills={Object {}}
+                    classes={
+                      Object {
+                        "container": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------container-7",
+                        "divider": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------divider-18",
+                        "dropzone": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------dropzone-4",
+                        "labelEdit": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------labelEdit-10",
+                        "labelNoEdit": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------labelNoEdit-11",
+                        "margin": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------margin-1",
+                        "marginRating": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------marginRating-21",
+                        "menuItem": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------menuItem-5",
+                        "multiSelect": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------multiSelect-16",
+                        "onDrag": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------onDrag-6",
+                        "paddingTop": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------paddingTop-15",
+                        "pdf": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------pdf-2",
+                        "phonenumber": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------phonenumber-13",
+                        "progress": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------progress-12",
+                        "sizeLabel": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------sizeLabel-17",
+                        "starsLabel": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------starsLabel-20",
+                        "text": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------text-8",
+                        "textfield": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------textfield-3",
+                        "toolbar": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------toolbar-9",
+                        "width": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------width-14",
+                        "widthComment": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------widthComment-19",
+                      }
+                    }
+                    closeResumeDialog={[Function]}
+                    dispatch={[Function]}
+                    isDialogOpened={false}
+                    openResumeDialog={[Function]}
+                    skills={Array []}
+                    toggleDialog={[Function]}
+                  >
+                    <InjectIntl(withRouter(EnhancedComponent))
+                      allSkills={Object {}}
+                      classes={
+                        Object {
+                          "container": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------container-7",
+                          "divider": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------divider-18",
+                          "dropzone": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------dropzone-4",
+                          "labelEdit": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------labelEdit-10",
+                          "labelNoEdit": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------labelNoEdit-11",
+                          "margin": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------margin-1",
+                          "marginRating": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------marginRating-21",
+                          "menuItem": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------menuItem-5",
+                          "multiSelect": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------multiSelect-16",
+                          "onDrag": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------onDrag-6",
+                          "paddingTop": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------paddingTop-15",
+                          "pdf": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------pdf-2",
+                          "phonenumber": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------phonenumber-13",
+                          "progress": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------progress-12",
+                          "sizeLabel": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------sizeLabel-17",
+                          "starsLabel": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------starsLabel-20",
+                          "text": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------text-8",
+                          "textfield": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------textfield-3",
+                          "toolbar": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------toolbar-9",
+                          "width": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------width-14",
+                          "widthComment": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------widthComment-19",
+                        }
+                      }
+                      closeResumeDialog={[Function]}
+                      dispatch={[Function]}
+                      handleIsSubmited={[Function]}
+                      isDialogOpened={false}
+                      isFormSubmitted={false}
+                      openResumeDialog={[Function]}
+                      skills={Array []}
+                      toggleDialog={[Function]}
+                    >
+                      <withRouter(EnhancedComponent)
+                        allSkills={Object {}}
+                        classes={
+                          Object {
+                            "container": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------container-7",
+                            "divider": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------divider-18",
+                            "dropzone": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------dropzone-4",
+                            "labelEdit": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------labelEdit-10",
+                            "labelNoEdit": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------labelNoEdit-11",
+                            "margin": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------margin-1",
+                            "marginRating": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------marginRating-21",
+                            "menuItem": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------menuItem-5",
+                            "multiSelect": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------multiSelect-16",
+                            "onDrag": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------onDrag-6",
+                            "paddingTop": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------paddingTop-15",
+                            "pdf": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------pdf-2",
+                            "phonenumber": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------phonenumber-13",
+                            "progress": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------progress-12",
+                            "sizeLabel": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------sizeLabel-17",
+                            "starsLabel": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------starsLabel-20",
+                            "text": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------text-8",
+                            "textfield": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------textfield-3",
+                            "toolbar": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------toolbar-9",
+                            "width": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------width-14",
+                            "widthComment": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------widthComment-19",
+                          }
+                        }
+                        closeResumeDialog={[Function]}
+                        dispatch={[Function]}
+                        handleIsSubmited={[Function]}
+                        intl={
+                          Object {
+                            "defaultFormats": Object {},
+                            "defaultLocale": "en",
+                            "formatDate": [Function],
+                            "formatHTMLMessage": [Function],
+                            "formatMessage": [Function],
+                            "formatNumber": [Function],
+                            "formatPlural": [Function],
+                            "formatRelative": [Function],
+                            "formatTime": [Function],
+                            "formats": Object {},
+                            "formatters": Object {
+                              "getDateTimeFormat": [Function],
+                              "getMessageFormat": [Function],
+                              "getNumberFormat": [Function],
+                              "getPluralFormat": [Function],
+                              "getRelativeFormat": [Function],
+                            },
+                            "locale": "en",
+                            "messages": Object {},
+                            "now": [Function],
+                            "onError": [Function],
+                            "textComponent": "span",
+                            "timeZone": null,
+                          }
+                        }
+                        isDialogOpened={false}
+                        isFormSubmitted={false}
+                        openResumeDialog={[Function]}
+                        skills={Array []}
+                        toggleDialog={[Function]}
+                      >
+                        <Route>
+                          <EnhancedComponent
+                            allSkills={Object {}}
+                            classes={
+                              Object {
+                                "container": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------container-7",
+                                "divider": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------divider-18",
+                                "dropzone": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------dropzone-4",
+                                "labelEdit": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------labelEdit-10",
+                                "labelNoEdit": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------labelNoEdit-11",
+                                "margin": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------margin-1",
+                                "marginRating": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------marginRating-21",
+                                "menuItem": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------menuItem-5",
+                                "multiSelect": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------multiSelect-16",
+                                "onDrag": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------onDrag-6",
+                                "paddingTop": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------paddingTop-15",
+                                "pdf": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------pdf-2",
+                                "phonenumber": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------phonenumber-13",
+                                "progress": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------progress-12",
+                                "sizeLabel": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------sizeLabel-17",
+                                "starsLabel": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------starsLabel-20",
+                                "text": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------text-8",
+                                "textfield": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------textfield-3",
+                                "toolbar": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------toolbar-9",
+                                "width": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------width-14",
+                                "widthComment": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------widthComment-19",
+                              }
+                            }
+                            closeResumeDialog={[Function]}
+                            dispatch={[Function]}
+                            handleIsSubmited={[Function]}
+                            history={
+                              Object {
+                                "action": "POP",
+                                "block": [Function],
+                                "createHref": [Function],
+                                "go": [Function],
+                                "goBack": [Function],
+                                "goForward": [Function],
+                                "length": 1,
+                                "listen": [Function],
+                                "location": Object {
+                                  "hash": "",
+                                  "pathname": "/",
+                                  "search": "",
+                                  "state": undefined,
+                                },
+                                "push": [Function],
+                                "replace": [Function],
+                              }
+                            }
+                            intl={
+                              Object {
+                                "defaultFormats": Object {},
+                                "defaultLocale": "en",
+                                "formatDate": [Function],
+                                "formatHTMLMessage": [Function],
+                                "formatMessage": [Function],
+                                "formatNumber": [Function],
+                                "formatPlural": [Function],
+                                "formatRelative": [Function],
+                                "formatTime": [Function],
+                                "formats": Object {},
+                                "formatters": Object {
+                                  "getDateTimeFormat": [Function],
+                                  "getMessageFormat": [Function],
+                                  "getNumberFormat": [Function],
+                                  "getPluralFormat": [Function],
+                                  "getRelativeFormat": [Function],
+                                },
+                                "locale": "en",
+                                "messages": Object {},
+                                "now": [Function],
+                                "onError": [Function],
+                                "textComponent": "span",
+                                "timeZone": null,
+                              }
+                            }
+                            isDialogOpened={false}
+                            isFormSubmitted={false}
+                            location={
+                              Object {
+                                "hash": "",
+                                "pathname": "/",
+                                "search": "",
+                                "state": undefined,
+                              }
+                            }
+                            match={
+                              Object {
+                                "isExact": true,
+                                "params": Object {},
+                                "path": "/",
+                                "url": "/",
+                              }
+                            }
+                            openResumeDialog={[Function]}
+                            skills={Array []}
+                            toggleDialog={[Function]}
+                          >
+                            <Component
+                              allSkills={Object {}}
+                              classes={
+                                Object {
+                                  "container": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------container-7",
+                                  "divider": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------divider-18",
+                                  "dropzone": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------dropzone-4",
+                                  "labelEdit": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------labelEdit-10",
+                                  "labelNoEdit": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------labelNoEdit-11",
+                                  "margin": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------margin-1",
+                                  "marginRating": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------marginRating-21",
+                                  "menuItem": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------menuItem-5",
+                                  "multiSelect": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------multiSelect-16",
+                                  "onDrag": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------onDrag-6",
+                                  "paddingTop": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------paddingTop-15",
+                                  "pdf": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------pdf-2",
+                                  "phonenumber": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------phonenumber-13",
+                                  "progress": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------progress-12",
+                                  "sizeLabel": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------sizeLabel-17",
+                                  "starsLabel": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------starsLabel-20",
+                                  "text": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------text-8",
+                                  "textfield": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------textfield-3",
+                                  "toolbar": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------toolbar-9",
+                                  "width": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------width-14",
+                                  "widthComment": "Connect-withState-withHandlers-withStateHandlers-InjectIntl-withRouter-EnhancedComponent-------widthComment-19",
+                                }
+                              }
+                              closeResumeDialog={[Function]}
+                              dispatch={[Function]}
+                              handleIsSubmited={[Function]}
+                              history={
+                                Object {
+                                  "action": "POP",
+                                  "block": [Function],
+                                  "createHref": [Function],
+                                  "go": [Function],
+                                  "goBack": [Function],
+                                  "goForward": [Function],
+                                  "length": 1,
+                                  "listen": [Function],
+                                  "location": Object {
+                                    "hash": "",
+                                    "pathname": "/",
+                                    "search": "",
+                                    "state": undefined,
+                                  },
+                                  "push": [Function],
+                                  "replace": [Function],
+                                }
+                              }
+                              intl={
+                                Object {
+                                  "defaultFormats": Object {},
+                                  "defaultLocale": "en",
+                                  "formatDate": [Function],
+                                  "formatHTMLMessage": [Function],
+                                  "formatMessage": [Function],
+                                  "formatNumber": [Function],
+                                  "formatPlural": [Function],
+                                  "formatRelative": [Function],
+                                  "formatTime": [Function],
+                                  "formats": Object {},
+                                  "formatters": Object {
+                                    "getDateTimeFormat": [Function],
+                                    "getMessageFormat": [Function],
+                                    "getNumberFormat": [Function],
+                                    "getPluralFormat": [Function],
+                                    "getRelativeFormat": [Function],
+                                  },
+                                  "locale": "en",
+                                  "messages": Object {},
+                                  "now": [Function],
+                                  "onError": [Function],
+                                  "textComponent": "span",
+                                  "timeZone": null,
+                                }
+                              }
+                              isDialogOpened={false}
+                              isFormSubmitted={false}
+                              location={
+                                Object {
+                                  "hash": "",
+                                  "pathname": "/",
+                                  "search": "",
+                                  "state": undefined,
+                                }
+                              }
+                              match={
+                                Object {
+                                  "isExact": true,
+                                  "params": Object {},
+                                  "path": "/",
+                                  "url": "/",
+                                }
+                              }
+                              openResumeDialog={[Function]}
+                              skills={Array []}
+                              toggleDialog={[Function]}
+                            >
+                              <div />
+                            </Component>
+                          </EnhancedComponent>
+                        </Route>
+                      </withRouter(EnhancedComponent)>
+                    </InjectIntl(withRouter(EnhancedComponent))>
+                  </withStateHandlers(InjectIntl(withRouter(EnhancedComponent)))>
+                </withHandlers(withStateHandlers(InjectIntl(withRouter(EnhancedComponent))))>
+              </withState(withHandlers(withStateHandlers(InjectIntl(withRouter(EnhancedComponent)))))>
+            </Connect(withState(withHandlers(withStateHandlers(InjectIntl(withRouter(EnhancedComponent))))))>
+          </WithStyles(Connect(withState(withHandlers(withStateHandlers(InjectIntl(withRouter(EnhancedComponent)))))))>
+        </Router>
+      </IntlProvider>
+    </LanguageProvider>
+  </Connect(LanguageProvider)>
+</Provider>
+`;

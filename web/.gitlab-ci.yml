@@ -1,0 +1,52 @@
+stages:
+  - unit-test
+  - build-staging-image
+  - run-staging-image
+
+image: node:latest
+
+variables:
+  #CI_DEBUG_TRACE: "true"
+  CONTAINER_IMAGE: ebasley/koopt:$CI_COMMIT_SHA
+  LATEST_CONTAINER_IMAGE: ebasley/koopt:latest
+
+run unit test:
+  stage: unit-test
+  variables:
+    MONGO_HOST: mongo
+  services:
+    - mongo
+  before_script:
+    - yarn
+  cache:
+    untracked: true
+    policy: pull
+  script:
+    - yarn test -u
+  tags:
+    - docker
+
+build and push staging docker image:
+  stage: build-staging-image
+  before_script:
+    - docker login -u ebasley -p $HUB_DOCKER_PWD
+  script:
+    - docker build --pull --no-cache -t $CONTAINER_IMAGE -f Dockerfile .
+    - docker push $CONTAINER_IMAGE
+  only:
+    - develop
+  tags:
+    - kube-rp
+
+run staging:
+  stage: run-staging-image
+  before_script:
+    - docker login -u ebasley -p $HUB_DOCKER_PWD
+  script:
+    - kubectl set image deployment/koopt-staging koopt=$CONTAINER_IMAGE
+  only:
+    - develop
+  tags:
+    - kube-rp
+  environment:
+    name: staging

@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`web | pages | EmailConfirmation | index render should match snapshot 1`] = `
+<WithStyles(Container)>
+  <WithStyles(Content)>
+    <WithStyles(Grid)
+      container={true}
+      justify="center"
+    >
+      <WithStyles(Grid)
+        item={true}
+        xs={12}
+      >
+        <WithStyles(Typography)
+          align="center"
+          color="textPrimary"
+          variant="display3"
+        >
+          <FormattedMessage
+            defaultMessage="Almost there ..."
+            id="pages.ResetAlmostThere.almostThere"
+            values={Object {}}
+          />
+        </WithStyles(Typography)>
+        <WithStyles(Typography)
+          align="center"
+          variant="caption"
+        >
+          <FormattedMessage
+            defaultMessage="Please check your email to reset your password"
+            id="pages.ResetAlmostThere.checkAccount"
+            values={Object {}}
+          />
+        </WithStyles(Typography)>
+        <br />
+         
+        <br />
+        <WithStyles(Divider) />
+      </WithStyles(Grid)>
+      <WithStyles(Grid)
+        item={true}
+        xs={12}
+      >
+        <br />
+         
+        <br />
+        <WithStyles(Typography)
+          align="center"
+          variant="body1"
+        >
+          <FormattedMessage
+            defaultMessage="No reset email received? Please check your spam folder or"
+            id="pages.ResetAlmostThere.noConfirmation"
+            values={Object {}}
+          />
+        </WithStyles(Typography)>
+        <br />
+         
+        <br />
+      </WithStyles(Grid)>
+      <WithStyles(Grid)
+        item={true}
+      >
+        <WithStyles(Button)
+          align="center"
+          color="primary"
+          component={[Function]}
+          size="large"
+          to="/request_reset_password"
+          variant="contained"
+        >
+          <FormattedMessage
+            defaultMessage="Reset again your password"
+            id="pages.ResetAlmostThere.requestConfirmation"
+            values={Object {}}
+          />
+        </WithStyles(Button)>
+      </WithStyles(Grid)>
+      <WithStyles(Grid)
+        item={true}
+        xs={12}
+      >
+        <WithStyles(Typography)
+          align="center"
+          variant="caption"
+        >
+          <FormattedMessage
+            defaultMessage="Get your login and password?"
+            id="components.LoginForm.almostThere.haveLogin"
+            values={Object {}}
+          />
+          <WithStyles(Button)
+            color="primary"
+            component={[Function]}
+            to="/resumes"
+          >
+            <FormattedMessage
+              defaultMessage="Sign in"
+              id="components.LoginForm.almostThere.haveLogin"
+              values={Object {}}
+            />
+          </WithStyles(Button)>
+        </WithStyles(Typography)>
+      </WithStyles(Grid)>
+    </WithStyles(Grid)>
+  </WithStyles(Content)>
+</WithStyles(Container)>
+`;

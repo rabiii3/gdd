@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`web | components | People | index  render should match snapshot 1`] = `
+<WithStyles(Grid)>
+  <WithStyles(MenuItem)>
+    <WithStyles(Typography)
+      variant="h6"
+    >
+      <FormattedMessage
+        defaultMessage="Notifications"
+        id="components.Notifications.notifications"
+        values={Object {}}
+      />
+    </WithStyles(Typography)>
+    <WithStyles(IconButton)
+      onClick={[MockFunction]}
+    >
+      <pure(ChevronRightIcon) />
+    </WithStyles(IconButton)>
+    <Spacer
+      size="LARGE"
+    />
+    <WithStyles(Grid)
+      alignItems="center"
+      container={true}
+      direction="row"
+      justify="flex-end"
+    >
+      <WithStyles(Button)
+        onClick={[Function]}
+      >
+        <WithStyles(Typography)
+          align="right"
+          color="primary"
+          variant="caption"
+        >
+          <FormattedMessage
+            defaultMessage="Clear"
+            id="components.Notifications.remove"
+            values={Object {}}
+          />
+        </WithStyles(Typography)>
+      </WithStyles(Button)>
+    </WithStyles(Grid)>
+  </WithStyles(MenuItem)>
+  <WithStyles(Divider) />
+</WithStyles(Grid)>
+`;

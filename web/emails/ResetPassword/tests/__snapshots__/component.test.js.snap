@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`web | pages | EmailConfirmation | index render should match snapshot 1`] = `
+<div>
+  <WithStyles(Grid)
+    container={true}
+  >
+    <WithStyles(Grid)
+      item={true}
+      xs={3}
+    >
+      <WithStyles(Typography)
+        align="left"
+        color="textPrimary"
+        variant="display1"
+      >
+        <FormattedMessage
+          defaultMessage="Hello, {name}!"
+          id="pages.EmailReset.hello"
+          values={
+            Object {
+              "name": undefined,
+            }
+          }
+        />
+      </WithStyles(Typography)>
+    </WithStyles(Grid)>
+  </WithStyles(Grid)>
+  <p />
+  <WithStyles(Typography)
+    align="left"
+    color="textPrimary"
+    variant="body1"
+  >
+    <FormattedMessage
+      defaultMessage="Someone, hopefully you, has requested to reset the password for your Koopt account on "
+      id="pages.EmailReset.text1"
+      values={Object {}}
+    />
+    <a
+      href="undefined"
+    />
+    <br />
+    <FormattedMessage
+      defaultMessage="If you did not perform this request, you can safely ignore this email."
+      id="pages.EmailReset.text2"
+      values={Object {}}
+    />
+    <p />
+    <FormattedMessage
+      defaultMessage="Otherwise, click the link below to complete the process"
+      id="pages.EmailReset.text3"
+      values={Object {}}
+    />
+    <br />
+    <a
+      href="undefined"
+    >
+      <FormattedMessage
+        defaultMessage="Reset password"
+        id="pages.EmailReset.reset"
+        values={Object {}}
+      />
+    </a>
+  </WithStyles(Typography)>
+  <p />
+</div>
+`;

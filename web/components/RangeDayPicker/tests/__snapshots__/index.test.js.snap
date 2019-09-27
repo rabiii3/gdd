@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`web | components | RangeDayPicker | index render should render 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Connect(LanguageProvider)
+    messages={Object {}}
+  >
+    <LanguageProvider
+      dispatch={[Function]}
+      locale="en"
+      messages={Object {}}
+    >
+      <IntlProvider
+        key="en"
+        locale="en"
+      >
+        <WithStyles(Connect(withState(withHandlers(Component))))>
+          <Connect(withState(withHandlers(Component)))
+            classes={
+              Object {
+                "dayPicker": "Connect-withState-withHandlers-Component----dayPicker-1",
+                "padding": "Connect-withState-withHandlers-Component----padding-2",
+              }
+            }
+          >
+            <withState(withHandlers(Component))
+              classes={
+                Object {
+                  "dayPicker": "Connect-withState-withHandlers-Component----dayPicker-1",
+                  "padding": "Connect-withState-withHandlers-Component----padding-2",
+                }
+              }
+              handleStatisticsDates={[Function]}
+              initialState={
+                Object {
+                  "from": 2019-05-31T23:00:00.000Z,
+                  "to": 2019-08-30T23:00:00.000Z,
+                }
+              }
+            >
+              <withHandlers(Component)
+                classes={
+                  Object {
+                    "dayPicker": "Connect-withState-withHandlers-Component----dayPicker-1",
+                    "padding": "Connect-withState-withHandlers-Component----padding-2",
+                  }
+                }
+                filter={null}
+                handleFilter={[Function]}
+                handleStatisticsDates={[Function]}
+                initialState={
+                  Object {
+                    "from": 2019-05-31T23:00:00.000Z,
+                    "to": 2019-08-30T23:00:00.000Z,
+                  }
+                }
+              >
+                <Component
+                  classes={
+                    Object {
+                      "dayPicker": "Connect-withState-withHandlers-Component----dayPicker-1",
+                      "padding": "Connect-withState-withHandlers-Component----padding-2",
+                    }
+                  }
+                  filter={null}
+                  handleFilter={[Function]}
+                  handleStatisticsDates={[Function]}
+                  initialState={
+                    Object {
+                      "from": 2019-05-31T23:00:00.000Z,
+                      "to": 2019-08-30T23:00:00.000Z,
+                    }
+                  }
+                  setCloseFilter={[Function]}
+                  setShowFilter={[Function]}
+                >
+                  <div />
+                </Component>
+              </withHandlers(Component)>
+            </withState(withHandlers(Component))>
+          </Connect(withState(withHandlers(Component)))>
+        </WithStyles(Connect(withState(withHandlers(Component))))>
+      </IntlProvider>
+    </LanguageProvider>
+  </Connect(LanguageProvider)>
+</Provider>
+`;

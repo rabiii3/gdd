@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should render a <StyledHeaderRight /> 1`] = `
+<WithStyles(Grid)
+  alignItems="center"
+  container={true}
+>
+  <WithStyles(Grid)
+    item={true}
+    lg={7}
+    sm={6}
+    xs={8}
+  />
+  <WithStyles(Grid)
+    item={true}
+    lg={5}
+    sm={6}
+    xs={4}
+  />
+</WithStyles(Grid)>
+`;
+
+exports[`<HeaderLeft /> should render a <StyledHeaderLeft /> 1`] = `
+<WithStyles(Grid)
+  alignItems="center"
+  container={true}
+  direction="row"
+  justify="flex-start"
+  wrap="nowrap"
+>
+  <div />
+</WithStyles(Grid)>
+`;
+
+exports[`<HeaderRight /> should render a <StyledHeaderRight /> 1`] = `
+<WithStyles(Grid)
+  alignItems="center"
+  container={true}
+  direction="row"
+  justify="flex-end"
+  wrap="nowrap"
+>
+  <div />
+</WithStyles(Grid)>
+`;

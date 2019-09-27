@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`web | components | CommentsEditor | WhenFieldChanges render should match snapshot 1`] = `
+<ReactFinalForm(Field)
+  name="result"
+  subscription={Object {}}
+>
+  <Component />
+</ReactFinalForm(Field)>
+`;

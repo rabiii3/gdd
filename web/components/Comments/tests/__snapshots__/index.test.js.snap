@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`web | components | Comments | index render should render 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Connect(LanguageProvider)
+    messages={Object {}}
+  >
+    <LanguageProvider
+      dispatch={[Function]}
+      locale="en"
+      messages={Object {}}
+    >
+      <IntlProvider
+        key="en"
+        locale="en"
+      >
+        <Router
+          history={
+            Object {
+              "action": "POP",
+              "block": [Function],
+              "createHref": [Function],
+              "go": [Function],
+              "goBack": [Function],
+              "goForward": [Function],
+              "length": 1,
+              "listen": [Function],
+              "location": Object {
+                "hash": "",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              },
+              "push": [Function],
+              "replace": [Function],
+            }
+          }
+        >
+          <Connect(WithStyles(withStateHandlers(EnhancedComponent)))>
+            <WithStyles(withStateHandlers(EnhancedComponent))
+              dispatch={[Function]}
+            >
+              <withStateHandlers(EnhancedComponent)
+                classes={
+                  Object {
+                    "avatar": "withStateHandlers-EnhancedComponent--avatar-4",
+                    "bold": "withStateHandlers-EnhancedComponent--bold-11",
+                    "comment": "withStateHandlers-EnhancedComponent--comment-3",
+                    "content": "withStateHandlers-EnhancedComponent--content-12",
+                    "date": "withStateHandlers-EnhancedComponent--date-5",
+                    "grey": "withStateHandlers-EnhancedComponent--grey-8",
+                    "icon": "withStateHandlers-EnhancedComponent--icon-6",
+                    "iconFontSize": "withStateHandlers-EnhancedComponent--iconFontSize-13",
+                    "margin": "withStateHandlers-EnhancedComponent--margin-2",
+                    "root": "withStateHandlers-EnhancedComponent--root-1",
+                    "small": "withStateHandlers-EnhancedComponent--small-9",
+                    "smaller": "withStateHandlers-EnhancedComponent--smaller-10",
+                    "when": "withStateHandlers-EnhancedComponent--when-7",
+                  }
+                }
+                dispatch={[Function]}
+              >
+                <EnhancedComponent
+                  classes={
+                    Object {
+                      "avatar": "withStateHandlers-EnhancedComponent--avatar-4",
+                      "bold": "withStateHandlers-EnhancedComponent--bold-11",
+                      "comment": "withStateHandlers-EnhancedComponent--comment-3",
+                      "content": "withStateHandlers-EnhancedComponent--content-12",
+                      "date": "withStateHandlers-EnhancedComponent--date-5",
+                      "grey": "withStateHandlers-EnhancedComponent--grey-8",
+                      "icon": "withStateHandlers-EnhancedComponent--icon-6",
+                      "iconFontSize": "withStateHandlers-EnhancedComponent--iconFontSize-13",
+                      "margin": "withStateHandlers-EnhancedComponent--margin-2",
+                      "root": "withStateHandlers-EnhancedComponent--root-1",
+                      "small": "withStateHandlers-EnhancedComponent--small-9",
+                      "smaller": "withStateHandlers-EnhancedComponent--smaller-10",
+                      "when": "withStateHandlers-EnhancedComponent--when-7",
+                    }
+                  }
+                  dispatch={[Function]}
+                  isEditable={null}
+                  setEdit={[Function]}
+                >
+                  <Component
+                    classes={
+                      Object {
+                        "avatar": "withStateHandlers-EnhancedComponent--avatar-4",
+                        "bold": "withStateHandlers-EnhancedComponent--bold-11",
+                        "comment": "withStateHandlers-EnhancedComponent--comment-3",
+                        "content": "withStateHandlers-EnhancedComponent--content-12",
+                        "date": "withStateHandlers-EnhancedComponent--date-5",
+                        "grey": "withStateHandlers-EnhancedComponent--grey-8",
+                        "icon": "withStateHandlers-EnhancedComponent--icon-6",
+                        "iconFontSize": "withStateHandlers-EnhancedComponent--iconFontSize-13",
+                        "margin": "withStateHandlers-EnhancedComponent--margin-2",
+                        "root": "withStateHandlers-EnhancedComponent--root-1",
+                        "small": "withStateHandlers-EnhancedComponent--small-9",
+                        "smaller": "withStateHandlers-EnhancedComponent--smaller-10",
+                        "when": "withStateHandlers-EnhancedComponent--when-7",
+                      }
+                    }
+                    dispatch={[Function]}
+                    isEditable={null}
+                    setEdit={[Function]}
+                  >
+                    <div />
+                  </Component>
+                </EnhancedComponent>
+              </withStateHandlers(EnhancedComponent)>
+            </WithStyles(withStateHandlers(EnhancedComponent))>
+          </Connect(WithStyles(withStateHandlers(EnhancedComponent)))>
+        </Router>
+      </IntlProvider>
+    </LanguageProvider>
+  </Connect(LanguageProvider)>
+</Provider>
+`;

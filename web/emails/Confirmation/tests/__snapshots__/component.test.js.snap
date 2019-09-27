@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`web | pages | EmailConfirmation | index render should match snapshot 1`] = `
+<div>
+  <WithStyles(Grid)
+    container={true}
+  >
+    <WithStyles(Grid)
+      item={true}
+      xs={6}
+    >
+      <WithStyles(Typography)
+        color="textPrimary"
+        variant="h6"
+      >
+        <FormattedMessage
+          defaultMessage="Thanks for signing up to KOOPT!"
+          id="pages.EmailConfirmation.thanks"
+          values={Object {}}
+        />
+      </WithStyles(Typography)>
+    </WithStyles(Grid)>
+  </WithStyles(Grid)>
+  <p />
+  <WithStyles(Typography)
+    align="left"
+    color="textPrimary"
+    variant="body1"
+  >
+    <div>
+      <FormattedMessage
+        defaultMessage="To get started, click the link below to confirm your account"
+        id="pages.EmailConfirmation.getStarted"
+        values={Object {}}
+      />
+       
+      <br />
+    </div>
+    <p />
+    <a>
+      <FormattedMessage
+        defaultMessage="Confirm your account"
+        id="pages.EmailConfirmation.getStarted"
+        values={Object {}}
+      />
+    </a>
+  </WithStyles(Typography)>
+  <p />
+</div>
+`;

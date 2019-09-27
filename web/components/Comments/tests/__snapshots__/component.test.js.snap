@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`web | components | Comments | component render should match snapshot 1`] = `
+<WithStyles(Grid)
+  container={true}
+>
+  <WithStyles(Grid)
+    item={true}
+    xs={true}
+  />
+</WithStyles(Grid)>
+`;

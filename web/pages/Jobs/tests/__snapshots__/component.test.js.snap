@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app | pages | JobDescription | component should match snapshot 1`] = `
+<Component
+  classes={Object {}}
+  deleteJob={[MockFunction]}
+  handleSelectedJob={[MockFunction]}
+  history={Object {}}
+  people={Object {}}
+  routes={Object {}}
+  selectedJob=""
+  skills={Object {}}
+  sortJobs={[MockFunction]}
+  sortMode={Object {}}
+  sortedJobs={Array []}
+  user={Object {}}
+/>
+`;

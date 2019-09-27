@@ -1,0 +1,180 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`web | pages | ResumePage | index render should render 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Connect(LanguageProvider)
+    messages={Object {}}
+  >
+    <LanguageProvider
+      dispatch={[Function]}
+      locale="en"
+      messages={Object {}}
+    >
+      <IntlProvider
+        key="en"
+        locale="en"
+      >
+        <Router
+          history={
+            Object {
+              "action": "POP",
+              "block": [Function],
+              "createHref": [Function],
+              "go": [Function],
+              "goBack": [Function],
+              "goForward": [Function],
+              "length": 1,
+              "listen": [Function],
+              "location": Object {
+                "hash": "",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              },
+              "push": [Function],
+              "replace": [Function],
+            }
+          }
+        >
+          <WithStyles(Connect(withState(withHandlers(EnhancedComponent))))
+            people={
+              Object {
+                "_id": "",
+              }
+            }
+          >
+            <Connect(withState(withHandlers(EnhancedComponent)))
+              classes={
+                Object {
+                  "badge": "Connect-withState-withHandlers-EnhancedComponent----badge-4",
+                  "card": "Connect-withState-withHandlers-EnhancedComponent----card-2",
+                  "cardHeader": "Connect-withState-withHandlers-EnhancedComponent----cardHeader-6",
+                  "container": "Connect-withState-withHandlers-EnhancedComponent----container-1",
+                  "popover": "Connect-withState-withHandlers-EnhancedComponent----popover-7",
+                  "status": "Connect-withState-withHandlers-EnhancedComponent----status-3",
+                  "subheader": "Connect-withState-withHandlers-EnhancedComponent----subheader-5",
+                }
+              }
+              people={
+                Object {
+                  "_id": "",
+                }
+              }
+            >
+              <withState(withHandlers(EnhancedComponent))
+                classes={
+                  Object {
+                    "badge": "Connect-withState-withHandlers-EnhancedComponent----badge-4",
+                    "card": "Connect-withState-withHandlers-EnhancedComponent----card-2",
+                    "cardHeader": "Connect-withState-withHandlers-EnhancedComponent----cardHeader-6",
+                    "container": "Connect-withState-withHandlers-EnhancedComponent----container-1",
+                    "popover": "Connect-withState-withHandlers-EnhancedComponent----popover-7",
+                    "status": "Connect-withState-withHandlers-EnhancedComponent----status-3",
+                    "subheader": "Connect-withState-withHandlers-EnhancedComponent----subheader-5",
+                  }
+                }
+                confrmedStatusCount={Array []}
+                dispatch={[Function]}
+                people={
+                  Object {
+                    "_id": "",
+                  }
+                }
+                resumesCount={0}
+              >
+                <withHandlers(EnhancedComponent)
+                  boolMenuIcon={null}
+                  classes={
+                    Object {
+                      "badge": "Connect-withState-withHandlers-EnhancedComponent----badge-4",
+                      "card": "Connect-withState-withHandlers-EnhancedComponent----card-2",
+                      "cardHeader": "Connect-withState-withHandlers-EnhancedComponent----cardHeader-6",
+                      "container": "Connect-withState-withHandlers-EnhancedComponent----container-1",
+                      "popover": "Connect-withState-withHandlers-EnhancedComponent----popover-7",
+                      "status": "Connect-withState-withHandlers-EnhancedComponent----status-3",
+                      "subheader": "Connect-withState-withHandlers-EnhancedComponent----subheader-5",
+                    }
+                  }
+                  confrmedStatusCount={Array []}
+                  dispatch={[Function]}
+                  handlePopover={[Function]}
+                  people={
+                    Object {
+                      "_id": "",
+                    }
+                  }
+                  resumesCount={0}
+                >
+                  <EnhancedComponent
+                    boolMenuIcon={null}
+                    classes={
+                      Object {
+                        "badge": "Connect-withState-withHandlers-EnhancedComponent----badge-4",
+                        "card": "Connect-withState-withHandlers-EnhancedComponent----card-2",
+                        "cardHeader": "Connect-withState-withHandlers-EnhancedComponent----cardHeader-6",
+                        "container": "Connect-withState-withHandlers-EnhancedComponent----container-1",
+                        "popover": "Connect-withState-withHandlers-EnhancedComponent----popover-7",
+                        "status": "Connect-withState-withHandlers-EnhancedComponent----status-3",
+                        "subheader": "Connect-withState-withHandlers-EnhancedComponent----subheader-5",
+                      }
+                    }
+                    confrmedStatusCount={Array []}
+                    dispatch={[Function]}
+                    handlePopover={[Function]}
+                    people={
+                      Object {
+                        "_id": "",
+                      }
+                    }
+                    resumesCount={0}
+                    setClosePopover={[Function]}
+                    setShowPopover={[Function]}
+                  >
+                    <Component
+                      boolMenuIcon={null}
+                      classes={
+                        Object {
+                          "badge": "Connect-withState-withHandlers-EnhancedComponent----badge-4",
+                          "card": "Connect-withState-withHandlers-EnhancedComponent----card-2",
+                          "cardHeader": "Connect-withState-withHandlers-EnhancedComponent----cardHeader-6",
+                          "container": "Connect-withState-withHandlers-EnhancedComponent----container-1",
+                          "popover": "Connect-withState-withHandlers-EnhancedComponent----popover-7",
+                          "status": "Connect-withState-withHandlers-EnhancedComponent----status-3",
+                          "subheader": "Connect-withState-withHandlers-EnhancedComponent----subheader-5",
+                        }
+                      }
+                      confrmedStatusCount={Array []}
+                      dispatch={[Function]}
+                      handlePopover={[Function]}
+                      people={
+                        Object {
+                          "_id": "",
+                        }
+                      }
+                      resumesCount={0}
+                      setClosePopover={[Function]}
+                      setShowPopover={[Function]}
+                    >
+                      <div />
+                    </Component>
+                  </EnhancedComponent>
+                </withHandlers(EnhancedComponent)>
+              </withState(withHandlers(EnhancedComponent))>
+            </Connect(withState(withHandlers(EnhancedComponent)))>
+          </WithStyles(Connect(withState(withHandlers(EnhancedComponent))))>
+        </Router>
+      </IntlProvider>
+    </LanguageProvider>
+  </Connect(LanguageProvider)>
+</Provider>
+`;

@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`web | pages | Unauthorized | index render should match snapshot 1`] = `
+<WithStyles(Container)>
+  <WithStyles(Content)>
+    <WithStyles(Grid)
+      container={true}
+      justify="center"
+    >
+      <WithStyles(Grid)
+        item={true}
+        xs={12}
+      >
+        <WithStyles(Typography)
+          align="center"
+          color="textPrimary"
+          variant="display3"
+        >
+          <WithStyles(Icon)
+            className="fas fa-bomb"
+          />
+          <FormattedMessage
+            defaultMessage="Oops!"
+            id="pages.Error.error"
+            values={Object {}}
+          />
+        </WithStyles(Typography)>
+        <br />
+         
+        <br />
+        <br />
+         
+        <br />
+        <WithStyles(Typography)
+          align="center"
+          variant="caption"
+        >
+          <FormattedMessage
+            values={Object {}}
+          />
+        </WithStyles(Typography)>
+      </WithStyles(Grid)>
+    </WithStyles(Grid)>
+  </WithStyles(Content)>
+</WithStyles(Container)>
+`;

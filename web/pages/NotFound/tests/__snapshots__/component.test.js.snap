@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`web | pages | NotFound | index render should match snapshot 1`] = `
+<WithStyles(Container)>
+  <WithStyles(Content)>
+    <WithStyles(Grid)
+      container={true}
+      justify="center"
+    >
+      <WithStyles(Grid)
+        item={true}
+        xs={12}
+      >
+        <WithStyles(Typography)
+          align="center"
+          color="textPrimary"
+          variant="display3"
+        >
+          <FormattedMessage
+            defaultMessage="404 Page Not Found."
+            id="pages.NotFound.error"
+            values={Object {}}
+          />
+        </WithStyles(Typography)>
+        <WithStyles(Typography)
+          align="center"
+          variant="caption"
+        >
+          <FormattedMessage
+            defaultMessage="Make sure that the address is correct and the page hasn\`t moved"
+            id="pages.NotFound.notAuthorized"
+            values={Object {}}
+          />
+        </WithStyles(Typography)>
+        <br />
+         
+        <br />
+        <WithStyles(Divider) />
+        <br />
+         
+        <br />
+      </WithStyles(Grid)>
+      <WithStyles(Grid)
+        item={true}
+        xs={12}
+      >
+        <WithStyles(Typography)
+          align="center"
+          variant="caption"
+        >
+          <WithStyles(Button)
+            color="primary"
+            component={[Function]}
+            to="/resumes"
+          >
+            <FormattedMessage
+              defaultMessage="Go to home page "
+              id="components.NotFound.return"
+              values={Object {}}
+            />
+          </WithStyles(Button)>
+        </WithStyles(Typography)>
+      </WithStyles(Grid)>
+    </WithStyles(Grid)>
+  </WithStyles(Content)>
+</WithStyles(Container)>
+`;

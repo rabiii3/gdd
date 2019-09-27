@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`web | components | Todo | component render should match snapshot 1`] = `
+<WithStyles(Grid)
+  alignitem="center"
+  container={true}
+  direction="row"
+  justify="space-between"
+>
+  <WithStyles(Grid)
+    item={true}
+    lg={4}
+    xs={12}
+  >
+    <ReactFinalForm(Field)
+      className=""
+      component={[Function]}
+      label={
+        <label>
+           
+          <FormattedMessage
+            defaultMessage="What"
+            id="components.Todo.what"
+            values={Object {}}
+          />
+           
+        </label>
+      }
+      name="what"
+    >
+      <WithStyles(MenuItem)
+        key="none"
+        value="none"
+      >
+        <WithStyles(Grid)
+          alignitem="center"
+          container={true}
+          direction="row"
+          justify="flex-start"
+        >
+          <pure(BlockIcon) />
+          <Spacer
+            size="SMALL"
+          />
+          None
+        </WithStyles(Grid)>
+      </WithStyles(MenuItem)>
+      <WithStyles(MenuItem)
+        key="call"
+        value="call"
+      >
+        <WithStyles(Grid)
+          alignitem="center"
+          container={true}
+          direction="row"
+          justify="flex-start"
+        >
+          <pure(CallIcon) />
+          <Spacer
+            size="SMALL"
+          />
+          Call
+        </WithStyles(Grid)>
+      </WithStyles(MenuItem)>
+      <WithStyles(MenuItem)
+        key="forward"
+        value="forward"
+      >
+        <WithStyles(Grid)
+          alignitem="center"
+          container={true}
+          direction="row"
+          justify="flex-start"
+        >
+          <pure(ForwardIcon) />
+          <Spacer
+            size="SMALL"
+          />
+          Forward
+        </WithStyles(Grid)>
+      </WithStyles(MenuItem)>
+      <WithStyles(MenuItem)
+        key="meet"
+        value="meet"
+      >
+        <WithStyles(Grid)
+          alignitem="center"
+          container={true}
+          direction="row"
+          justify="flex-start"
+        >
+          <pure(FaceIcon) />
+          <Spacer
+            size="SMALL"
+          />
+          Meet
+        </WithStyles(Grid)>
+      </WithStyles(MenuItem)>
+    </ReactFinalForm(Field)>
+  </WithStyles(Grid)>
+  <WithStyles(Grid)
+    item={true}
+    lg={4}
+    xs={12}
+  >
+    <WithStyles(Grid)
+      alignItems="flex-start"
+      container={true}
+      direction="column"
+      justify="flex-end"
+    >
+      <ReactFinalForm(Field)
+        className=""
+        component={[Function]}
+        keyboard={true}
+        name="when"
+      />
+    </WithStyles(Grid)>
+  </WithStyles(Grid)>
+  <WithStyles(Grid)
+    item={true}
+    lg={4}
+    xs={12}
+  >
+    <WithStyles(Grid)
+      alignItems="flex-start"
+      container={true}
+      direction="column"
+      justify="flex-end"
+    >
+      <WithStyles(Grid)
+        item={true}
+      />
+      <WithStyles(Grid)
+        item={true}
+      >
+        <ReactFinalForm(Field)
+          className=""
+          component={[Function]}
+          defaultValue={Array []}
+          isMulti={true}
+          name="who"
+          placeholder={
+            <FormattedMessage
+              defaultMessage="Who"
+              id="components.Todo.who"
+              values={Object {}}
+            />
+          }
+          suggestion={Array []}
+          textFieldProps={
+            Object {
+              "InputLabelProps": Object {
+                "shrink": true,
+              },
+            }
+          }
+          type="select"
+        />
+      </WithStyles(Grid)>
+    </WithStyles(Grid)>
+  </WithStyles(Grid)>
+</WithStyles(Grid)>
+`;

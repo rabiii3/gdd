@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`web | components | modalandform | componentindex render should match snapshot 1`] = `
+<WithStyles(Dialog)
+  aria-labelledby="form-dialog-title"
+  open={true}
+>
+  <WithStyles(DialogTitle)
+    id="form-dialog-title"
+  >
+    Upload resume
+  </WithStyles(DialogTitle)>
+  <ReactFinalForm
+    formatNumber={[Function]}
+    initialValues={null}
+    onSubmit={[Function]}
+    render={[Function]}
+    validate={[Function]}
+    validateOnBlur={true}
+  />
+</WithStyles(Dialog)>
+`;

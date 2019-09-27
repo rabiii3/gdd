@@ -1,0 +1,339 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app | App | Header | component render Header should match snapshot 1`] = `
+<div>
+  <WithStyles(AppBar)
+    className=""
+  >
+    <WithStyles(Toolbar)>
+      <WithStyles(Grid)
+        alignItems="center"
+        container={true}
+        justify="space-between"
+      >
+        <WithStyles(Grid)
+          item={true}
+        >
+          <WithStyles(Grid)
+            alignItems="center"
+            container={true}
+            justify="center"
+          >
+            <WithStyles(Grid)
+              item={true}
+            >
+              <Hidden
+                implementation="js"
+                lgDown={false}
+                lgUp={false}
+                mdDown={false}
+                mdUp={false}
+                smDown={false}
+                smUp={false}
+                xlDown={false}
+                xlUp={false}
+                xsDown={true}
+                xsUp={false}
+              >
+                <WithStyles(IconButton)
+                  component={[Function]}
+                  variant="flat"
+                >
+                  <WithStyles(Icon)
+                    className="fas fa-users"
+                  />
+                </WithStyles(IconButton)>
+              </Hidden>
+            </WithStyles(Grid)>
+            <WithStyles(Grid)
+              item={true}
+            >
+              <Hidden
+                implementation="js"
+                lgDown={false}
+                lgUp={false}
+                mdDown={false}
+                mdUp={false}
+                smDown={false}
+                smUp={false}
+                xlDown={false}
+                xlUp={false}
+                xsDown={true}
+                xsUp={false}
+              >
+                <WithStyles(Typography)
+                  color="inherit"
+                  noWrap={true}
+                >
+                  <FormattedMessage
+                    defaultMessage="Koopt for {tenant}"
+                    id="app.header.title"
+                    values={
+                      Object {
+                        "tenant": undefined,
+                      }
+                    }
+                  />
+                </WithStyles(Typography)>
+              </Hidden>
+              <Hidden
+                implementation="js"
+                lgDown={false}
+                lgUp={false}
+                mdDown={false}
+                mdUp={false}
+                smDown={false}
+                smUp={true}
+                xlDown={false}
+                xlUp={false}
+                xsDown={false}
+                xsUp={false}
+              >
+                <WithStyles(Typography)
+                  color="inherit"
+                  component={[Function]}
+                  noWrap={true}
+                >
+                  <FormattedMessage
+                    defaultMessage="Koopt"
+                    id="app.header.phoneTitle"
+                    values={Object {}}
+                  />
+                </WithStyles(Typography)>
+              </Hidden>
+            </WithStyles(Grid)>
+          </WithStyles(Grid)>
+        </WithStyles(Grid)>
+        <WithStyles(Grid)
+          item={true}
+        />
+      </WithStyles(Grid)>
+    </WithStyles(Toolbar)>
+  </WithStyles(AppBar)>
+  <WithStyles(Drawer)
+    anchor="left"
+    classes={
+      Object {
+        "paper": undefined,
+      }
+    }
+    onClose={[MockFunction]}
+    open={false}
+    variant="temporary"
+  >
+    <div
+      onClick={[MockFunction]}
+      onKeyDown={[MockFunction]}
+      role="button"
+      tabIndex={0}
+    >
+      <WithStyles(Divider) />
+      <div>
+        <WithStyles(AppBar)>
+          <WithStyles(Toolbar)>
+            <WithStyles(Grid)
+              alignItems="center"
+              container={true}
+              justify="center"
+            >
+              <WithStyles(Grid)
+                item={true}
+              >
+                <WithStyles(Icon)
+                  className="fas fa-users"
+                />
+              </WithStyles(Grid)>
+            </WithStyles(Grid)>
+          </WithStyles(Toolbar)>
+        </WithStyles(AppBar)>
+        <WithStyles(List)>
+          <WithStyles(ListItem)
+            button={true}
+            component={[Function]}
+            key="1"
+          >
+            <WithStyles(ListItemIcon)>
+              <WithStyles(Icon)
+                className="far fa-file-pdf"
+              />
+            </WithStyles(ListItemIcon)>
+            <WithStyles(ListItemText)
+              primary={
+                <FormattedMessage
+                  defaultMessage="Resumes"
+                  id="app.header.resumes"
+                  values={Object {}}
+                />
+              }
+            />
+          </WithStyles(ListItem)>
+          <WithStyles(ListItem)
+            button={true}
+            component={[Function]}
+            key="2"
+          >
+            <WithStyles(ListItemIcon)>
+              <pure(GroupIcon) />
+            </WithStyles(ListItemIcon)>
+            <WithStyles(ListItemText)
+              primary={
+                <FormattedMessage
+                  defaultMessage="People"
+                  id="app.header.users"
+                  values={Object {}}
+                />
+              }
+            />
+          </WithStyles(ListItem)>
+          <WithStyles(ListItem)
+            button={true}
+            component={[Function]}
+            key="3"
+          >
+            <WithStyles(ListItemIcon)>
+              <pure(WorkIcon) />
+            </WithStyles(ListItemIcon)>
+            <WithStyles(ListItemText)
+              primary={
+                <FormattedMessage
+                  defaultMessage="Jobs"
+                  id="app.header.jobs"
+                  values={Object {}}
+                />
+              }
+            />
+          </WithStyles(ListItem)>
+          <WithStyles(ListItem)
+            button={true}
+            component={[Function]}
+            key="4"
+          >
+            <WithStyles(ListItemIcon)>
+              <WithStyles(Icon)
+                className="fas fa-medal"
+              />
+            </WithStyles(ListItemIcon)>
+            <WithStyles(ListItemText)
+              primary={
+                <FormattedMessage
+                  defaultMessage="Skills"
+                  id="app.header.skills"
+                  values={Object {}}
+                />
+              }
+            />
+          </WithStyles(ListItem)>
+          <WithStyles(ListItem)
+            button={true}
+            component={[Function]}
+            key="5"
+          >
+            <WithStyles(ListItemIcon)>
+              <WithStyles(Icon)
+                className="far fa-calendar-alt"
+              />
+            </WithStyles(ListItemIcon)>
+            <WithStyles(ListItemText)
+              primary={
+                <FormattedMessage
+                  defaultMessage="Agenda"
+                  id="app.button.agenda"
+                  values={Object {}}
+                />
+              }
+            />
+          </WithStyles(ListItem)>
+          <WithStyles(ListItem)
+            button={true}
+            component={[Function]}
+            key="6"
+          >
+            <WithStyles(ListItemIcon)>
+              <WithStyles(Icon)
+                className="fas fa-chart-bar"
+              />
+            </WithStyles(ListItemIcon)>
+            <WithStyles(ListItemText)
+              primary={
+                <FormattedMessage
+                  defaultMessage="Statistics"
+                  id="app.button.statistics"
+                  values={Object {}}
+                />
+              }
+            />
+          </WithStyles(ListItem)>
+        </WithStyles(List)>
+      </div>
+    </div>
+  </WithStyles(Drawer)>
+</div>
+`;
+
+exports[`app | App | UserCard | component render User Card should match snapshot 1`] = `
+<WithStyles(Card)>
+  <WithStyles(CardHeader)
+    avatar={
+      <UserAvatar
+        size="LARGE"
+        user={
+          Object {
+            "firstname": "Slim",
+            "lastname": "Chkir",
+          }
+        }
+      />
+    }
+    title="Slim Chkir"
+  />
+  <WithStyles(CardActions)>
+    <WithStyles(Button)
+      color="primary"
+      onClick={[Function]}
+      size="small"
+    >
+      <FormattedMessage
+        defaultMessage="Logout"
+        id="app.button.logout"
+        values={Object {}}
+      />
+    </WithStyles(Button)>
+    <WithStyles(Button)
+      color="primary"
+      component={[Function]}
+      onClick={[MockFunction]}
+      size="small"
+      to="/person/:id"
+    >
+      <FormattedMessage
+        defaultMessage="Display Profile"
+        id="app.button.displayProfile"
+        values={Object {}}
+      />
+    </WithStyles(Button)>
+  </WithStyles(CardActions)>
+</WithStyles(Card)>
+`;
+
+exports[`app | App | component render App should match snapshot 1`] = `
+<WithStyles(Grid)
+  container={true}
+  justify="center"
+>
+  <WithStyles(Grid)
+    item={true}
+    xs={12}
+  >
+    <WithStyles(withRouter(EnhancedComponent)) />
+  </WithStyles(Grid)>
+  <WithStyles(Grid)
+    item={true}
+    xs={12}
+  >
+    <Switch />
+  </WithStyles(Grid)>
+  <WithStyles(InjectIntl(Component))
+    actions={Object {}}
+  />
+</WithStyles(Grid)>
+`;

@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`web | pages | UpdateResume | Todo render should match snapshot 1`] = `
+<WithStyles(Grid)
+  item={true}
+>
+  <WithStyles(Grid)
+    alignItems="center"
+    container={true}
+    direction="row"
+    justify="flex-start"
+    spacing={8}
+    wrap="nowrap"
+  >
+    <WithStyles(Grid)
+      item={true}
+    >
+      <WithStyles(Grid)
+        container={true}
+        direction="row"
+      />
+    </WithStyles(Grid)>
+    <WithStyles(Grid)
+      item={true}
+    />
+    <WithStyles(Grid)
+      item={true}
+    >
+      <WithStyles(Typography)
+        className=""
+        noWrap={true}
+        variant="caption"
+      />
+    </WithStyles(Grid)>
+  </WithStyles(Grid)>
+</WithStyles(Grid)>
+`;

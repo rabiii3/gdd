@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`web | pages | EmailConfirmation | index render should match snapshot 1`] = `
+<WithStyles(Container)>
+  <WithStyles(Content)>
+    <WithStyles(Grid)
+      container={true}
+      direction="row"
+      justify="center"
+    >
+      <WithStyles(Grid)
+        item={true}
+        xs={12}
+      >
+        <br />
+        <br />
+      </WithStyles(Grid)>
+      <WithStyles(Grid)
+        item={true}
+        xs={12}
+      >
+        <WithStyles(Grid)
+          container={true}
+          justify="center"
+        >
+          <WithStyles(Card)>
+            <WithStyles(AppBar)
+              color="default"
+              position="static"
+            >
+              <WithStyles(Tabs)
+                fullWidth={true}
+                indicatorColor="primary"
+                textColor="primary"
+                value={0}
+              >
+                <WithStyles(Tab)
+                  label="Resend confirmation instruction"
+                />
+              </WithStyles(Tabs)>
+            </WithStyles(AppBar)>
+            <ReactFinalForm
+              onSubmit={[Function]}
+              render={[Function]}
+            />
+          </WithStyles(Card)>
+        </WithStyles(Grid)>
+      </WithStyles(Grid)>
+      <WithStyles(WithFormControlContext(FormHelperText))>
+        <FormattedMessage
+          defaultMessage="Already have login and password?"
+          id="pages.ResendLogin.haveLogin"
+          values={Object {}}
+        />
+        <WithStyles(Button)
+          color="primary"
+          component={[Function]}
+          to="/resumes"
+        >
+          <FormattedMessage
+            defaultMessage="SignIn"
+            id="pages.ResendLogin.signIn"
+            values={Object {}}
+          />
+        </WithStyles(Button)>
+      </WithStyles(WithFormControlContext(FormHelperText))>
+    </WithStyles(Grid)>
+  </WithStyles(Content)>
+</WithStyles(Container)>
+`;

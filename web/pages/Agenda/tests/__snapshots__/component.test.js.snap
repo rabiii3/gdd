@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`web | pages | Agenda | index render should match snapshot 1`] = `
+<WithStyles(Container)>
+  <WithStyles(StyledHeader)>
+    <WithStyles(StyledHeaderLeft)>
+      <withRouter(ArrowBack) />
+      <Spacer
+        size="SMALL"
+      />
+      <WithStyles(Icon)
+        className="far fa-calendar-alt"
+      />
+      <Spacer
+        size="MEDIUM"
+      />
+      <Title
+        text="Agenda"
+      />
+    </WithStyles(StyledHeaderLeft)>
+    <WithStyles(StyledHeaderRight) />
+  </WithStyles(StyledHeader)>
+  <WithStyles(Content)>
+    <WithStyles(Grid)
+      alignItems="center"
+      container={true}
+      direction="row"
+      justify="space-around"
+    >
+      <WithStyles(Grid)
+        item={true}
+        xs={12}
+      >
+        <WithStyles(Grid)
+          alignItems="center"
+          container={true}
+          direction="row"
+        >
+          <Hidden
+            implementation="js"
+            lgDown={false}
+            lgUp={false}
+            mdDown={true}
+            mdUp={false}
+            smDown={false}
+            smUp={false}
+            xlDown={false}
+            xlUp={false}
+            xsDown={false}
+            xsUp={false}
+          >
+            <Spacer
+              size="LARGE"
+            />
+          </Hidden>
+          <WithStyles(Grid)
+            item={true}
+          >
+            <WithStyles(Typography)
+              variant="h6"
+            >
+              <FormattedMessage
+                defaultMessage="Today"
+                id="pages.agenda.today"
+                values={Object {}}
+              />
+            </WithStyles(Typography)>
+          </WithStyles(Grid)>
+          <Spacer
+            size="SMALL"
+          />
+          <WithStyles(Grid)
+            item={true}
+          >
+            <WithStyles(Typography)
+              variant="h5"
+            >
+              <FormattedDate
+                value={2017-12-09T23:00:00.000Z}
+                weekday="long"
+              />
+            </WithStyles(Typography)>
+          </WithStyles(Grid)>
+          <Spacer
+            size="SMALL"
+          />
+          <WithStyles(Grid)
+            item={true}
+          >
+            <WithStyles(Typography)
+              variant="h5"
+            >
+              <FormattedDate
+                day="numeric"
+                value={2017-12-09T23:00:00.000Z}
+              />
+            </WithStyles(Typography)>
+          </WithStyles(Grid)>
+          <Spacer
+            size="SMALL"
+          />
+          <WithStyles(Grid)
+            item={true}
+          >
+            <WithStyles(Typography)
+              variant="h5"
+            >
+              <FormattedDate
+                month="long"
+                value={2017-12-09T23:00:00.000Z}
+              />
+            </WithStyles(Typography)>
+          </WithStyles(Grid)>
+          <Spacer
+            size="SMALL"
+          />
+        </WithStyles(Grid)>
+      </WithStyles(Grid)>
+      <WithStyles(Grid)
+        item={true}
+        xs={12}
+      >
+        <WithStyles(Grid)
+          alignItems="center"
+          container={true}
+          direction="row"
+          justify="space-around"
+        >
+          <WithStyles(Grid)
+            item={true}
+            lg={3}
+            xs={12}
+          >
+            <DefaultCalendar
+              Component={[Function]}
+              disabledDays={
+                Array [
+                  0,
+                  6,
+                ]
+              }
+              displayOptions={
+                Object {
+                  "showHeader": false,
+                }
+              }
+              interpolateSelection={[Function]}
+              minDate={2017-12-09T23:00:00.000Z}
+              selected={
+                Array [
+                  2017-12-09T23:00:00.000Z,
+                ]
+              }
+              theme={
+                Object {
+                  "floatingNav": Object {
+                    "background": "rgba(81, 67, 138, 0.96)",
+                    "chevron": "#FFA726",
+                    "color": "#FFF",
+                  },
+                  "headerColor": "rgb(127, 95, 251)",
+                  "selectionColor": "orange",
+                  "textColor": Object {
+                    "active": "#FFF",
+                    "default": "#333",
+                  },
+                  "weekdayColor": "indigo",
+                }
+              }
+              width={360}
+            />
+          </WithStyles(Grid)>
+          <WithStyles(Grid)
+            item={true}
+            lg={8}
+            xs={12}
+          >
+            <WithStyles(Divider) />
+            <WithStyles(Table)>
+              <WithStyles(TableBody) />
+            </WithStyles(Table)>
+          </WithStyles(Grid)>
+        </WithStyles(Grid)>
+      </WithStyles(Grid)>
+    </WithStyles(Grid)>
+  </WithStyles(Content)>
+</WithStyles(Container)>
+`;

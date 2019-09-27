@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`web | components | Snackbar | component render should match snapshot 1`] = `
+<WithStyles(Snackbar)
+  ContentProps={
+    Object {
+      "aria-describedby": "message-id",
+    }
+  }
+  anchorOrigin={
+    Object {
+      "horizontal": "left",
+      "vertical": "bottom",
+    }
+  }
+  autoHideDuration={6000}
+  onClose={[Function]}
+  open={true}
+  variant="error"
+>
+  <MySnackbarContent
+    classes={Object {}}
+    message="TYPE"
+    onClose={[Function]}
+    variant="error"
+  />
+</WithStyles(Snackbar)>
+`;

@@ -1,0 +1,315 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`web | pages | UpdateResume | index render should render 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Connect(LanguageProvider)
+    messages={Object {}}
+  >
+    <LanguageProvider
+      dispatch={[Function]}
+      locale="en"
+      messages={Object {}}
+    >
+      <IntlProvider
+        key="en"
+        locale="en"
+      >
+        <Router
+          history={
+            Object {
+              "action": "POP",
+              "block": [Function],
+              "createHref": [Function],
+              "go": [Function],
+              "goBack": [Function],
+              "goForward": [Function],
+              "length": 1,
+              "listen": [Function],
+              "location": Object {
+                "hash": "",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              },
+              "push": [Function],
+              "replace": [Function],
+            }
+          }
+        >
+          <WithStyles(withStateHandlers(withStateHandlers(withStateHandlers(Connect(lifecycle(EnhancedComponent))))))
+            match={
+              Object {
+                "params": Object {
+                  "id": 1,
+                },
+              }
+            }
+          >
+            <withStateHandlers(withStateHandlers(withStateHandlers(Connect(lifecycle(EnhancedComponent)))))
+              classes={
+                Object {
+                  "bold": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------bold-5",
+                  "comment": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------comment-8",
+                  "flexGrow": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------flexGrow-3",
+                  "grey": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------grey-4",
+                  "heading": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------heading-7",
+                  "iconHeader": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------iconHeader-6",
+                  "left": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------left-9",
+                  "margin": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------margin-2",
+                  "p": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------p-11",
+                  "paper": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------paper-1",
+                  "user": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------user-10",
+                }
+              }
+              match={
+                Object {
+                  "params": Object {
+                    "id": 1,
+                  },
+                }
+              }
+            >
+              <withStateHandlers(withStateHandlers(Connect(lifecycle(EnhancedComponent))))
+                classes={
+                  Object {
+                    "bold": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------bold-5",
+                    "comment": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------comment-8",
+                    "flexGrow": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------flexGrow-3",
+                    "grey": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------grey-4",
+                    "heading": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------heading-7",
+                    "iconHeader": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------iconHeader-6",
+                    "left": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------left-9",
+                    "margin": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------margin-2",
+                    "p": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------p-11",
+                    "paper": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------paper-1",
+                    "user": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------user-10",
+                  }
+                }
+                isEditable={false}
+                match={
+                  Object {
+                    "params": Object {
+                      "id": 1,
+                    },
+                  }
+                }
+                setEditable={[Function]}
+              >
+                <withStateHandlers(Connect(lifecycle(EnhancedComponent)))
+                  classes={
+                    Object {
+                      "bold": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------bold-5",
+                      "comment": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------comment-8",
+                      "flexGrow": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------flexGrow-3",
+                      "grey": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------grey-4",
+                      "heading": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------heading-7",
+                      "iconHeader": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------iconHeader-6",
+                      "left": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------left-9",
+                      "margin": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------margin-2",
+                      "p": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------p-11",
+                      "paper": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------paper-1",
+                      "user": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------user-10",
+                    }
+                  }
+                  isDeleted={false}
+                  isEditable={false}
+                  match={
+                    Object {
+                      "params": Object {
+                        "id": 1,
+                      },
+                    }
+                  }
+                  setDeleting={[Function]}
+                  setEditable={[Function]}
+                >
+                  <Connect(lifecycle(EnhancedComponent))
+                    classes={
+                      Object {
+                        "bold": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------bold-5",
+                        "comment": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------comment-8",
+                        "flexGrow": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------flexGrow-3",
+                        "grey": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------grey-4",
+                        "heading": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------heading-7",
+                        "iconHeader": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------iconHeader-6",
+                        "left": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------left-9",
+                        "margin": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------margin-2",
+                        "p": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------p-11",
+                        "paper": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------paper-1",
+                        "user": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------user-10",
+                      }
+                    }
+                    expanded={false}
+                    handleExpandClick={[Function]}
+                    isDeleted={false}
+                    isEditable={false}
+                    match={
+                      Object {
+                        "params": Object {
+                          "id": 1,
+                        },
+                      }
+                    }
+                    setDeleting={[Function]}
+                    setEditable={[Function]}
+                  >
+                    <lifecycle(EnhancedComponent)
+                      actions={
+                        Object {
+                          "addComment": [Function],
+                          "deleteComment": [Function],
+                          "deleteResume": [Function],
+                          "loadFile": [Function],
+                          "updateComment": [Function],
+                          "updateResume": [Function],
+                        }
+                      }
+                      classes={
+                        Object {
+                          "bold": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------bold-5",
+                          "comment": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------comment-8",
+                          "flexGrow": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------flexGrow-3",
+                          "grey": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------grey-4",
+                          "heading": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------heading-7",
+                          "iconHeader": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------iconHeader-6",
+                          "left": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------left-9",
+                          "margin": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------margin-2",
+                          "p": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------p-11",
+                          "paper": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------paper-1",
+                          "user": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------user-10",
+                        }
+                      }
+                      comments={Array []}
+                      expanded={false}
+                      handleExpandClick={[Function]}
+                      isDeleted={false}
+                      isEditable={false}
+                      match={
+                        Object {
+                          "params": Object {
+                            "id": 1,
+                          },
+                        }
+                      }
+                      people={Object {}}
+                      resumes={Array []}
+                      setDeleting={[Function]}
+                      setEditable={[Function]}
+                      tenant="key"
+                      token="token"
+                    >
+                      <EnhancedComponent
+                        actions={
+                          Object {
+                            "addComment": [Function],
+                            "deleteComment": [Function],
+                            "deleteResume": [Function],
+                            "loadFile": [Function],
+                            "updateComment": [Function],
+                            "updateResume": [Function],
+                          }
+                        }
+                        classes={
+                          Object {
+                            "bold": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------bold-5",
+                            "comment": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------comment-8",
+                            "flexGrow": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------flexGrow-3",
+                            "grey": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------grey-4",
+                            "heading": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------heading-7",
+                            "iconHeader": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------iconHeader-6",
+                            "left": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------left-9",
+                            "margin": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------margin-2",
+                            "p": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------p-11",
+                            "paper": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------paper-1",
+                            "user": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------user-10",
+                          }
+                        }
+                        comments={Array []}
+                        expanded={false}
+                        handleExpandClick={[Function]}
+                        isDeleted={false}
+                        isEditable={false}
+                        match={
+                          Object {
+                            "params": Object {
+                              "id": 1,
+                            },
+                          }
+                        }
+                        people={Object {}}
+                        resumes={Array []}
+                        setDeleting={[Function]}
+                        setEditable={[Function]}
+                        tenant="key"
+                        token="token"
+                      >
+                        <Component
+                          actions={
+                            Object {
+                              "addComment": [Function],
+                              "deleteComment": [Function],
+                              "deleteResume": [Function],
+                              "loadFile": [Function],
+                              "updateComment": [Function],
+                              "updateResume": [Function],
+                            }
+                          }
+                          classes={
+                            Object {
+                              "bold": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------bold-5",
+                              "comment": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------comment-8",
+                              "flexGrow": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------flexGrow-3",
+                              "grey": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------grey-4",
+                              "heading": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------heading-7",
+                              "iconHeader": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------iconHeader-6",
+                              "left": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------left-9",
+                              "margin": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------margin-2",
+                              "p": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------p-11",
+                              "paper": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------paper-1",
+                              "user": "withStateHandlers-withStateHandlers-withStateHandlers-Connect-lifecycle-EnhancedComponent------user-10",
+                            }
+                          }
+                          comments={Array []}
+                          expanded={false}
+                          handleExpandClick={[Function]}
+                          isDeleted={false}
+                          isEditable={false}
+                          match={
+                            Object {
+                              "params": Object {
+                                "id": 1,
+                              },
+                            }
+                          }
+                          people={Object {}}
+                          resumes={Array []}
+                          setDeleting={[Function]}
+                          setEditable={[Function]}
+                          tenant="key"
+                          token="token"
+                        >
+                          <div />
+                        </Component>
+                      </EnhancedComponent>
+                    </lifecycle(EnhancedComponent)>
+                  </Connect(lifecycle(EnhancedComponent))>
+                </withStateHandlers(Connect(lifecycle(EnhancedComponent)))>
+              </withStateHandlers(withStateHandlers(Connect(lifecycle(EnhancedComponent))))>
+            </withStateHandlers(withStateHandlers(withStateHandlers(Connect(lifecycle(EnhancedComponent)))))>
+          </WithStyles(withStateHandlers(withStateHandlers(withStateHandlers(Connect(lifecycle(EnhancedComponent))))))>
+        </Router>
+      </IntlProvider>
+    </LanguageProvider>
+  </Connect(LanguageProvider)>
+</Provider>
+`;

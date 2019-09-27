@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app | components | ResumesList | component render should match snapshot 1`] = `
+<Component
+  actions={Object {}}
+  allSkills={Object {}}
+  classes={Object {}}
+  location={Object {}}
+  people={Object {}}
+  resumes={Array []}
+/>
+`;

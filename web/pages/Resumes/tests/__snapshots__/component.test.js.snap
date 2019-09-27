@@ -1,0 +1,287 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`web | pages | ResumesPage | component render should match snapshot 1`] = `
+<WithStyles(Container)>
+  <WithStyles(StyledHeader)>
+    <WithStyles(StyledHeaderLeft)>
+      <WithStyles(ResumeIcon) />
+      <Spacer
+        size="MEDIUM"
+      />
+      <WithStyles(Title)
+        text="Resumes Page"
+      />
+    </WithStyles(StyledHeaderLeft)>
+    <WithStyles(StyledHeaderRight)>
+      <Hidden
+        implementation="js"
+        lgDown={false}
+        lgUp={false}
+        mdDown={false}
+        mdUp={false}
+        smDown={false}
+        smUp={false}
+        xlDown={false}
+        xlUp={false}
+        xsDown={true}
+        xsUp={false}
+      >
+        <WithStyles(SearchBar)
+          className=""
+          onCancelSearch={[Function]}
+          onChange={[Function]}
+          placeholder="Search"
+        />
+        <WithStyles(Tooltip)
+          title={
+            <FormattedMessage
+              defaultMessage="Cards View "
+              id="pages.Resume.cardMode"
+              values={Object {}}
+            />
+          }
+        >
+          <WithStyles(IconButton)
+            onClick={[Function]}
+          >
+            <pure(GridOffIcon) />
+          </WithStyles(IconButton)>
+        </WithStyles(Tooltip)>
+      </Hidden>
+      <WithStyles(IconButton)
+        aria-haspopup="true"
+        aria-label="More"
+        aria-owns="long-menu"
+        onClick={[Function]}
+      >
+        <pure(MoreVertIcon) />
+      </WithStyles(IconButton)>
+      <WithStyles(Popover)
+        anchorEl={Object {}}
+        anchorOrigin={
+          Object {
+            "horizontal": "left",
+            "vertical": "center",
+          }
+        }
+        onClose={[Function]}
+        open={true}
+        transformOrigin={
+          Object {
+            "horizontal": "right",
+            "vertical": "top",
+          }
+        }
+      >
+        <WithStyles(MenuItem)>
+          <WithStyles(Typography)
+            variant="button"
+          >
+            <FormattedMessage
+              defaultMessage=" SORT BY "
+              id="pages.Resumes.SortBy"
+              values={Object {}}
+            />
+          </WithStyles(Typography)>
+        </WithStyles(MenuItem)>
+        <WithStyles(Divider) />
+        <WithStyles(MenuItem)
+          onClick={[Function]}
+          selected={false}
+        >
+          <WithStyles(Typography)>
+            <FormattedMessage
+              defaultMessage=" Author"
+              id="pages.Resume.author"
+              values={Object {}}
+            />
+          </WithStyles(Typography)>
+        </WithStyles(MenuItem)>
+        <WithStyles(MenuItem)
+          onClick={[Function]}
+          selected={false}
+        >
+          <WithStyles(Typography)>
+            <FormattedMessage
+              defaultMessage="Award"
+              id="pages.Resume.award"
+              values={Object {}}
+            />
+          </WithStyles(Typography)>
+        </WithStyles(MenuItem)>
+        <WithStyles(MenuItem)
+          onClick={[Function]}
+          selected={false}
+        >
+          <WithStyles(Typography)>
+            <FormattedMessage
+              defaultMessage=" Candidate"
+              id="pages.Resume.candidate"
+              values={Object {}}
+            />
+          </WithStyles(Typography)>
+        </WithStyles(MenuItem)>
+        <WithStyles(MenuItem)
+          onClick={[Function]}
+          selected={false}
+        >
+          <WithStyles(Typography)>
+            <FormattedMessage
+              defaultMessage=" Date"
+              id="pages.Resume.createdAt"
+              values={Object {}}
+            />
+          </WithStyles(Typography)>
+        </WithStyles(MenuItem)>
+        <WithStyles(MenuItem)
+          onClick={[Function]}
+          selected={false}
+        >
+          <WithStyles(Typography)>
+            <FormattedMessage
+              defaultMessage="Email"
+              id="pages.resumes.filterByEmail"
+              values={Object {}}
+            />
+          </WithStyles(Typography)>
+        </WithStyles(MenuItem)>
+        <WithStyles(MenuItem)
+          onClick={[Function]}
+          selected={false}
+        >
+          <WithStyles(Typography)>
+            <FormattedMessage
+              defaultMessage="Phone Number"
+              id="pages.Resume.filterPhoneNumber"
+              values={Object {}}
+            />
+          </WithStyles(Typography)>
+        </WithStyles(MenuItem)>
+        <WithStyles(MenuItem)
+          onClick={[Function]}
+          selected={false}
+        >
+          <WithStyles(Typography)>
+            <FormattedMessage
+              defaultMessage="Rating"
+              id="pages.Resume.filterRating"
+              values={Object {}}
+            />
+          </WithStyles(Typography)>
+        </WithStyles(MenuItem)>
+        <WithStyles(MenuItem)
+          onClick={[Function]}
+          selected={false}
+        >
+          <WithStyles(Typography)>
+            <FormattedMessage
+              defaultMessage="Skills"
+              id="pages.Resume.filerskills"
+              values={Object {}}
+            />
+          </WithStyles(Typography)>
+        </WithStyles(MenuItem)>
+        <WithStyles(MenuItem)
+          onClick={[Function]}
+          selected={false}
+        >
+          <WithStyles(Typography)>
+            <FormattedMessage
+              defaultMessage=" Status"
+              id="pages.Resume.status"
+              values={Object {}}
+            />
+          </WithStyles(Typography)>
+        </WithStyles(MenuItem)>
+        <WithStyles(MenuItem)
+          onClick={[Function]}
+          selected={false}
+        >
+          <WithStyles(Typography)>
+            <FormattedMessage
+              defaultMessage="To Do"
+              id="pages.Resume.toDo"
+              values={Object {}}
+            />
+          </WithStyles(Typography)>
+        </WithStyles(MenuItem)>
+        <WithStyles(Divider) />
+        <WithStyles(MenuItem)
+          onClick={[Function]}
+        >
+          <WithStyles(Typography)>
+            <FormattedMessage
+              defaultMessage="Hidden resumes"
+              id="pages.Resume.hidden"
+              values={Object {}}
+            />
+          </WithStyles(Typography)>
+        </WithStyles(MenuItem)>
+        <WithStyles(MenuItem)
+          onClick={[Function]}
+        >
+          <WithStyles(Typography)>
+            <FormattedMessage
+              defaultMessage="Clear filter"
+              id="pages.Resume.clearFilter"
+              values={Object {}}
+            />
+          </WithStyles(Typography)>
+        </WithStyles(MenuItem)>
+      </WithStyles(Popover)>
+    </WithStyles(StyledHeaderRight)>
+  </WithStyles(StyledHeader)>
+  <WithStyles(Content)>
+    <n
+      accept="application/pdf"
+      acceptClassName=""
+      disableClick={true}
+      disabled={false}
+      getDataTransferItems={[Function]}
+      inputProps={Object {}}
+      maxSize={5000000}
+      minSize={0}
+      multiple={true}
+      onDragEnter={[Function]}
+      onDragLeave={[Function]}
+      onDrop={[Function]}
+      onDropAccepted={[Function]}
+      preventDropOnDocument={true}
+      rejectClassName=""
+    >
+      <WithStyles(Grid)
+        alignItems="center"
+        container={true}
+        justify="center"
+      >
+        <WithStyles(Grid)
+          item={true}
+          xs={12}
+        >
+          <WithStyles(Typography)
+            align="center"
+            variant="display1"
+          >
+            <FormattedMessage
+              defaultMessage="Welcome to Koopt, drag your first PDF resume here."
+              id="pages.resumespage.drag"
+              values={Object {}}
+            />
+          </WithStyles(Typography)>
+        </WithStyles(Grid)>
+        <WithStyles(Grid)
+          item={true}
+          xs={12}
+        >
+          <WithStyles(Typography)
+            align="center"
+            variant="display1"
+          >
+            <pure(CloudUploadIcon) />
+          </WithStyles(Typography)>
+        </WithStyles(Grid)>
+      </WithStyles(Grid)>
+    </n>
+  </WithStyles(Content)>
+</WithStyles(Container)>
+`;

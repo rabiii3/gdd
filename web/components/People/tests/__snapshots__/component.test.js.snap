@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`web | components | Peoples | index  render should match snapshot 1`] = `
+<WithStyles(Grid)
+  container={true}
+  justify="center"
+  wrap="wrap"
+/>
+`;

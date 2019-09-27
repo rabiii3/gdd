@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`web | components | AddResume | component render should match snapshot 1`] = `
+<WithStyles(Container)>
+  <WithStyles(StyledHeader)>
+    <WithStyles(StyledHeaderLeft)>
+      <withRouter(ArrowBack) />
+      <Spacer
+        size="SMALL"
+      />
+      <WithStyles(Title)
+        text="Add Resume"
+      />
+    </WithStyles(StyledHeaderLeft)>
+    <WithStyles(StyledHeaderRight) />
+  </WithStyles(StyledHeader)>
+  <WithStyles(Paper)
+    elevation={2}
+  >
+    <WithStyles(Connect(withState(withHandlers(withStateHandlers(InjectIntl(withRouter(EnhancedComponent)))))))
+      actions={
+        Object {
+          "goHome": [Function],
+        }
+      }
+      isEditable={true}
+      resume={
+        Object {
+          "file": undefined,
+        }
+      }
+    />
+  </WithStyles(Paper)>
+</WithStyles(Container)>
+`;
